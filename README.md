@@ -61,6 +61,8 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | Fortran | X |   |   |
 | Cobol   | X | X | X |
 
+**Please don't ever use Cobol.**
+
 ## Object Oriented Programming Languages
 | Language | GC | Compiled | Staticly Typed | Parallelism | Difficulty |
 | -        | :-: | :-: | :-: | :-: | :-: |
@@ -96,6 +98,7 @@ There are currently hundreds of programming languages in existence. Thankfully m
 ## Functional Programming Languages
 | Language           | FP | OOP | Difficulty |
 | -                  | :-: | :-: | :-: |
+| [Julia](https://julialang.org/) | X |   | X |
 | Scala              | X | X | 3 |
 | Haskell            | X |   | ? |
 | Clean              | X |   | ? |
@@ -107,11 +110,10 @@ There are currently hundreds of programming languages in existence. Thankfully m
 ## Data Science Languages
 | Language           | FP | OOP | Static Typing | Compiled | Parallelism | Difficulty |
 | -                  | :-: | :-: | :-: | :-: | :-: | :-: |
-| Julia              | X |   | X | X | X | 1 |
+| [Julia](https://julialang.org/)              | X |   | X | X | X | 1 |
 | Python             | X | X | X |   |   | 1 |
 | R                  | X | X | X |   | X | 1 |
 | Matlab/Octave      | X | X | X |   | X | 1 |
-
 
 ## Others
 | Language           | FP | OOP | Static Typing | Compiled | Parallelism | 
