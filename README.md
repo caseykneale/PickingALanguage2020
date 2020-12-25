@@ -76,5 +76,7 @@ Haskell, Clojure, Scala, Erlang, Clean, F#, ML/OCaml, Lisp / Scheme
 Julia, Wolfram Language, Matlab / GNU Octave, R, Coq / Gallina, Prolog, Haskell.
 
 | Language | Imperitive | Functional | Object Oriented | Systems Programming|
-| - | - | - | - |- |
-| C | X |  |  |  | X |
+| -       | - | - | - | - |
+| C       | X |   |   | X |
+| C++     | X |   | X | X |
+| Fortran | X |   |   | X |
