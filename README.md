@@ -30,7 +30,7 @@ Whats the risk of picking "the wrong language"? Is it, a total failure for a pro
 Desktop/Embedded/Cloud/On Premises/etc. What do the users need, make a survey/do some research, talk to marketing? 
 
 **Identify Sources of Novelty:**
-Is your killer feature a huge distributed computing web framework behind a super clean easy to use front end? Might need to look at languages supporting stable parallelism, and their ecosystems. Maybe you need stability, your competitor offerings are very glitchy, look into type safety. Maybe you need a highly interactive GUI - what GUI API's are accessible to the languages you're interested in?
+Is your killer feature a huge distributed computing web framework behind a super clean easy to use front end? Might need to look at languages supporting stable parallelism, and their ecosystems. Maybe you need stability, your competitor's offerings are very glitchy, look into memory safety. Maybe you need a highly interactive GUI - what GUI API's are accessible to the languages you're interested in?
 
 **Identify Technical Need:**
 Items to keep in mind: performance, mathematics, networking, parallelism, beauty, maintainability(short-term/long-term).
