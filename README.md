@@ -57,8 +57,8 @@ There are currently hundreds of programming languages in existence. Thankfully m
 ## Procedural Programming Languages
 | Language | Imperitive | Object Oriented | Systems Programming|
 | -       | :-: | :-: | :-: |
-| C       | X |   | X |
-| Fortran | X |   |   |
+| [C](https://devdocs.io/c/)       | X |   | X |
+| [Fortran](https://devdocs.io/gnu_fortran~4/) | X |   |   |
 | Cobol   | X | X | X |
 
 **Please don't ever use Cobol.**
@@ -66,20 +66,20 @@ There are currently hundreds of programming languages in existence. Thankfully m
 ## Object Oriented Programming Languages
 | Language | GC | Compiled | Staticly Typed | Parallelism | Difficulty |
 | -        | :-: | :-: | :-: | :-: | :-: |
-| C++      |   | X | X | X | 3 |
-| C#       | X | X | X | X | 2 |
-| PHP      | X |   |   | X | 2 |
-| Java     | X | X | X | X | 2 |
+| [C++](https://www.cplusplus.com/doc/)      |   | X | X | X | 3 |
+| [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)       | X | X | X | X | 2 |
+| [PHP](https://www.php.net/docs.php)      | X |   |   | X | 2 |
+| [Java](https://docs.oracle.com/en/java/)     | X | X | X | X | 2 |
 
 ** Difficulty is subjective, ? means I've never used it **
 
 ## Systems Programming Languages
 | Language | Memory Safety | Imperitive | FP | OOP | Parallelism | Difficulty |
 | -       | :-: | :-: | :-: | :-: | :-: | :-: |
-| C       |   | X |   |   | X | 3 |
-| C++     |   | X |   | X | X | 3 |
-| Rust    | X | X | X | X | X | 3 |
-| Go      | X | X | X | X | X | 1 |
+| [C](https://devdocs.io/c/)       |   | X |   |   | X | 3 |
+| [C++](https://www.cplusplus.com/doc/)     |   | X |   | X | X | 3 |
+| [Rust](https://www.rust-lang.org/learn)    | X | X | X | X | X | 3 |
+| [Go](https://golang.org/doc/)      | X | X | X | X | X | 1 |
 | Nim     | X | X | X | X | X | 1 |
 | Swift   | X | X | X | X | X | ? |
 | D       |   | X | X | X | X | ? |
@@ -88,7 +88,7 @@ There are currently hundreds of programming languages in existence. Thankfully m
 ## JVM Based languages
 | Language    | FP | OOP | Parallelism | Difficulty |
 | -           | :-: | :-: | :-: | :-: |
-| Java        |   | X | X | 2 |
+| [Java](https://docs.oracle.com/en/java/)       |   | X | X | 2 |
 | Scala       | X | X | X | 3 |
 | Clojure     | X | X | X | ? |
 | Groovy      | X | X | X | ? |
