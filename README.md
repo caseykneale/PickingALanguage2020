@@ -56,24 +56,24 @@ There are currently hundreds of programming languages in existence. Thankfully m
 
 ## Procedural Programming Languages
 | Language | Imperitive | Object Oriented | Systems Programming|
-| -       | - | - | - |
+| -       | :-: | :-: | :-: |
 | C       | X |   | X |
 | Fortran | X |   |   |
 | Cobol   | X | X | X |
 
 ## Object Oriented Programming Languages
-| Language | GC | Compiled | Staticly Typed | Difficulty |
-| -        | - | - | - | - |
-| C++      |   | X | X | 3 |
-| C#       | X | X | X | 2 |
-| PHP      | X |   |   | 2 |
-| Java     | X | X | X | 2 |
+| Language | GC | Compiled | Staticly Typed | Parallelism | Difficulty |
+| -        | :-: | :-: | :-: | :-: | :-: |
+| C++      |   | X | X | X | 3 |
+| C#       | X | X | X | X | 2 |
+| PHP      | X |   |   | C | 2 |
+| Java     | X | X | X | X | 2 |
 
 ** Difficulty is subjective, ? means I've never used it **
 
 ## Systems Programming Languages
-| Language | Memory Safety | Imperitive | FP | OOP | Systems Programming | Difficulty |
-| -       | - | - | - | - | - | - |
+| Language | Memory Safety | Imperitive | FP | OOP | Parallelism | Difficulty |
+| -       | :-: | :-: | :-: | :-: | :-: | :-: |
 | C       |   | X |   |   | X | 3 |
 | C++     |   | X |   | X | X | 3 |
 | Rust    | X | X | X | X | X | 3 |
@@ -84,18 +84,18 @@ There are currently hundreds of programming languages in existence. Thankfully m
 
 ** Difficulty is subjective, ? means I've never used it **
 ## JVM Based languages
-| Language    | FP | OOP | Difficulty |
-| -           | - | - | - |
-| Java        |   | X | 2 |
-| Scala       | X | X | 3 |
-| Clojure     | X | X | ? |
-| Groovy      | X | X | ? |
-| Jython      | X | X | ? |
-| Kotlin      | X | X | ? |
+| Language    | FP | OOP | Parallelism | Difficulty |
+| -           | :-: | :-: | :-: | :-: |
+| Java        |   | X | X | 2 |
+| Scala       | X | X | X | 3 |
+| Clojure     | X | X | X | ? |
+| Groovy      | X | X | X | ? |
+| Jython      | X | X | X | ? |
+| Kotlin      | X | X | X | ? |
 
 ## Functional Programming Languages
 | Language           | FP | OOP | Difficulty |
-| -                  | - | - | - |
+| -                  | :-: | :-: | :-: |
 | Scala              | X | X | 3 |
 | Haskell            | X |   | ? |
 | Clean              | X |   | ? |
@@ -105,14 +105,10 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | Lisp / Scheme      | X | X | ? |
 
 ## Data Science Languages
-
-| Language           | FP | OOP | Static Typing | Compiled | Difficulty |
-| -                  | - | - | - | - | - |
-| Julia              | X |   | X | X | 1 |
-| Python             | X | X | X |   | 1 |
-| R                  | X | X | X |   | 1 |
-| Matlab/Octave      | X | X | X |   | 1 |
-
-## Mathematical Programming Languages
-Julia, Wolfram Language, Matlab / GNU Octave, R, Coq / Gallina, Prolog, Haskell, scilab.
+| Language           | FP | OOP | Static Typing | Compiled | Parallelism | Difficulty |
+| -                  | :-: | :-: | :-: | :-: | :-: | :-: |
+| Julia              | X |   | X | X | X | 1 |
+| Python             | X | X | X |   |   | 1 |
+| R                  | X | X | X |   | X | 1 |
+| Matlab/Octave      | X | X | X |   | X | 1 |
 
