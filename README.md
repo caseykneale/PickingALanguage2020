@@ -52,7 +52,7 @@ Budget for closed source languages (matlab, etc), for training new staff, licens
 
 # What Options are Available in 2020?
 
-There are currently hundreds of programming languages in existence. Thankfully many of them can be rejected for any project that isn't for funsies without effort. For example, no one will ever use Hexagony(<https://esolangs.org/wiki/Hexagony>) in production. The human race is thankful for that. But - even after widdling down the choices there's still probably 50 or so that are feasible for most modern needs.
+There are currently hundreds of programming languages in existence. Thankfully many of them can be rejected for any project that isn't for funsies without effort. For example, no one will ever use Hexagony(<https://esolangs.org/wiki/Hexagony>) in production. The human race is thankful for that. But - even after widdling down the choices there's still probably 50 or so that are feasible for most modern needs. Below are some categorized lists of languages to help ease a search.
 
 ## Procedural Programming Languages
 | Language | Imperitive | Object Oriented | Systems Programming|
@@ -61,7 +61,7 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | [Fortran](https://devdocs.io/gnu_fortran~4/) | X |   |   |
 | Cobol   | X | X | X |
 
-**Please don't ever use Cobol.**
+**Please don't use Cobol - it's primary utility is related to legacy (read: ancient) systems..**
 
 ## Object Oriented Programming Languages
 | Language | GC | Compiled | Staticly Typed | Parallelism | Difficulty |
@@ -74,26 +74,26 @@ There are currently hundreds of programming languages in existence. Thankfully m
 ** Difficulty is subjective, ? means I've never used it **
 
 ## Systems Programming Languages
-| Language | Memory Safety | Imperitive | FP | OOP | Parallelism | Difficulty |
-| -       | :-: | :-: | :-: | :-: | :-: | :-: |
-| [C](https://devdocs.io/c/)       |   | X |   |   | X | 3 |
-| [C++](https://www.cplusplus.com/doc/)     |   | X |   | X | X | 3 |
-| [Rust](https://www.rust-lang.org/learn)    | X | X | X | X | X | 3 |
-| [Go](https://golang.org/doc/)      | X | X | X | X | X | 1 |
-| [Nim](https://nim-lang.org/documentation.html)     | X | X | X | X | X | 1 |
-| [Swift](https://swift.org/documentation/)   | X | X | X | X | X | ? |
-| [D](https://dlang.org/documentation.html)       |   | X | X | X | X | ? |
+| Language | Embedded Systems | Memory Safety | Imperitive | FP | OOP | Parallelism | Adoption | Difficulty |
+| -       | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| [C](https://devdocs.io/c/)       | X |   | X |   |   | X | Moderate | 3 |
+| [C++](https://www.cplusplus.com/doc/)     | X |   | X |   | X | X | High | 3 |
+| [Rust](https://www.rust-lang.org/learn)    | X | X | X | X | X | X | Low | 3 |
+| [Go](https://golang.org/doc/)      | X | X | X | X | X | X | Moderate | 1 |
+| [Nim](https://nim-lang.org/documentation.html)     | X | X | X | X | X | X | Low | 1 |
+| [Swift](https://swift.org/documentation/)   | X | X | X | X | X | X | Moderate | ? |
+| [D](https://dlang.org/documentation.html)       | X |  | X | X | X | X | Low | ? |
 
 ** Difficulty is subjective, ? means I've never used it **
 ## JVM Based languages
-| Language    | FP | OOP | Parallelism | Difficulty |
-| -           | :-: | :-: | :-: | :-: |
-| [Java](https://docs.oracle.com/en/java/)       |   | X | X | 2 |
-| [Scala](https://docs.scala-lang.org/)       | X | X | X | 3 |
-| [Clojure](https://clojuredocs.org/)     | X | X | X | ? |
-| [Groovy](https://groovy-lang.org/documentation.html)      | X | X | X | ? |
-| [Jython](https://www.jython.org/)      | X | X | X | ? |
-| [Kotlin](https://kotlinlang.org/docs/reference/)      | X | X | X | ? |
+| Language    | FP | OOP | Parallelism | Adoption | Difficulty |
+| -           | :-: | :-: | :-: | :-: | :-: |
+| [Java](https://docs.oracle.com/en/java/)       |   | X | X | High | 2 |
+| [Scala](https://docs.scala-lang.org/)       | X | X | X | Moderate | 3 |
+| [Clojure](https://clojuredocs.org/)     | X | X | X | ? | ? |
+| [Groovy](https://groovy-lang.org/documentation.html)      | X | X | X | ? |? |
+| [Jython](https://www.jython.org/)      | X | X | X | Niche | ? |
+| [Kotlin](https://kotlinlang.org/docs/reference/)      | X | X | X | ? | ? |
 
 ## Functional Programming Languages
 | Language           | FP | OOP | Difficulty |
@@ -108,12 +108,12 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | [Lisp](https://lisp-lang.org/)      | X | X | ? |
 
 ## Data Science Languages
-| Language           | FP | OOP | Static Typing | Compiled | Parallelism | Difficulty |
-| -                  | :-: | :-: | :-: | :-: | :-: | :-: |
-| [Julia](https://julialang.org/)              | X |   | X | X | X | 1 |
-| [Python](https://docs.python.org/3/)             | X | X | X |   |   | 1 |
-| [R](https://www.r-project.org/other-docs.html)                  | X | X | X |   | X | 1 |
-| [Matlab](https://www.mathworks.com/help/matlab/language-fundamentals.html)/[Octave](https://www.gnu.org/software/octave/index)      | X | X | X |   | X | 1 |
+| Language           | FP | OOP | Static Typing | Compiled | Parallelism | Adoption | Difficulty |
+| -                  | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| [Julia](https://julialang.org/)              | X |   | X | X | X | Low | 1 |
+| [Python](https://docs.python.org/3/)             | X | X | X |   |   | High | 1 |
+| [R](https://www.r-project.org/other-docs.html)                  | X | X | X |   | X | High | 1 |
+| [Matlab](https://www.mathworks.com/help/matlab/language-fundamentals.html)/[Octave](https://www.gnu.org/software/octave/index)      | X | X | X |   | X | Moderate | 1 |
 
 ## Others
 | Language           | FP | OOP | Static Typing | Compiled | Parallelism | 
@@ -141,7 +141,7 @@ I've been all over the place with these languages. I haven't really learned - Ru
 | Primary Need | Secondary Need | Tertiary Need | Platform                    | Okay With   | Language |  
 |     :-:      | :-:            | :-:           | :-:                         | :-:         | :-:      |
 | Easy         | Speed          | Parallelism   | Mac, Win, Linux, Web, Cloud | No Generics + Static Types | Go       |
-| Safety       | Speed          | Binaries      | Mac, Win, Linux, Web, Cloud | Difficult   | Rust     |
+| Safety       | Speed          | Binaries      | Mac, Win, Linux, Web, Cloud | Complexity  | Rust     |
 | Speed        | Low Level Access | Binaries    | Mac, Win, Linux             | Unsafe Code | C      |
 | Low Level Access | Speed      | Easier than C | Mac, Win, Linux             | OOP         | C++      |
 | Desktop      | Stability      | GUI           | Win(best), Mac, Linux       | GC          | C#       |
