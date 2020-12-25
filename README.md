@@ -54,13 +54,28 @@ Budget for closed source languages (matlab, etc), for training new staff, licens
 
 There are currently hundreds of programming languages in existence. Thankfully many of them can be rejected for any project that isn't for funsies without effort. For example, no one will ever use Hexagony(<https://esolangs.org/wiki/Hexagony>) in production. The human race is thankful for that. But - even after widdling down the choices there's still probably 50 or so that are feasible for most modern needs.
 
+## Procedural Programming Languages
+Fortran, C, COBOL.
+
+## Object Oriented Programming Languages
+Smalltalk, C++, C#, Eiffel, PHP, and Java
+
 ## Systems Programming Languages
 C, C++, Rust, Go, Swift, Nim, D 
 
 ## JVM Based languages
-Clojure, Groovy, JRuby, Jython, Kotlin, Scala
+Java, Clojure, Groovy, JRuby, Jython, Kotlin, Scala
 
 ## Data Science Languages
 Julia, Python, R, Matlab, Octave, Scilab.
 
+## Functional Programming Languages
+Haskell, Clojure, Scala, Erlang, Clean, F#, ML/OCaml, Lisp / Scheme
 
+## Mathematical Programming Languages
+Julia, Wolfram Language, Matlab / GNU Octave, R, Coq / Gallina, Prolog, Haskell.
+
+| Syntax | Description |
+| --- | ----------- |
+| Header | Title |
+| Paragraph | Text |
