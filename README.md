@@ -104,9 +104,9 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | Language           | FP | OOP | Static Typing | Compiled | Parallelism | Adoption | Difficulty |
 | -                  | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | [Julia](https://julialang.org/)              | X |   | X | X | X | Low | 1 |
-| [Python](https://docs.python.org/3/)             | X | X | X |   |   | High | 1 |
-| [R](https://www.r-project.org/other-docs.html)                  | X | X | X |   | X | High | 2 |
-| [Matlab](https://www.mathworks.com/help/matlab/language-fundamentals.html)/[Octave](https://www.gnu.org/software/octave/index)      | X | X | X |   | X | Moderate/Low | 1 |
+| [Python](https://docs.python.org/3/)             | X | X |   |   |   | High | 1 |
+| [R](https://www.r-project.org/other-docs.html)                  | X | X |   |   | X | High | 2 |
+| [Matlab](https://www.mathworks.com/help/matlab/language-fundamentals.html)/[Octave](https://www.gnu.org/software/octave/index)      | X | X |   |   | X | Moderate/Low | 1 |
 
 ## Others
 | Language           | FP | OOP | Static Typing | Compiled | Parallelism | 
