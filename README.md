@@ -48,7 +48,7 @@ Budget for closed source languages (matlab, etc), for training new staff, licens
 
 # What Options are Available in 2020?
 
-There are currently hundreds of programming languages in existence. Thankfully many of them can be rejected for any project that isn't for funsies without effort. For example, no one will ever use Hexagony(<https://esolangs.org/wiki/Hexagony>) in production. The human race is thankful for that. But - even after widdling down the choices there's still probably 50 or so that are feasible for most modern needs. Below are some categorized lists of languages to help ease someones search. Again not all languages are included, just major contenders that I'm aware of. 
+There are currently hundreds of programming languages in existence. Thankfully many of them can be rejected for any project that isn't for funsies without effort. For example, no one will ever use [Hexagony](<https://esolangs.org/wiki/Hexagony>) in production. The human race is thankful for that. But - even after widdling down the choices there's still probably 50 or so that are feasible for most modern needs. Below are some categorized lists of languages to help ease someones search. Again not all languages are included, just major contenders that I'm aware of. After this section I offer my preferences and why.
 
 **Please note, in some tables you will see a "Difficulty" score. This is subjective but included to give the reader a "feel" for my experience using a variety of languages. The score is based on my perception of my ability to learn enough syntax and DevOps to create deployable projects. A of 1 means it's easy, 3 means it's about as had as it gets, and a `?` score means I've never used the language**
 
@@ -120,7 +120,7 @@ There are currently hundreds of programming languages in existence. Thankfully m
 ## My Suggestions 
 
 ### Data
-For my needs I find Julia typically fits the bill. That said - every project is different. Sometimes I run to R for some vetted statistical methods. But, I mostly find myself creating new algorithms so I run to Julia for fast prototyping, performance tuning, and fast deliverables. Python is nice, but it has some deficits for what I do. I use python when my bosses' ask me too.
+For my needs I find Julia typically fits the bill. That said - every project is different. Sometimes I run to R for some vetted statistical methods. But, I mostly find myself creating new algorithms. So I use Julia for fast prototyping, performance tuning, and fast deliverables. Python is nice, but it has some deficits for what I do. I mostly use python when asked too by my superiors.
 
 | Primary Need | Secondary Need | Tertiary Need | Platform                    | Okay With  | Language |  
 |     :-:      | :-:            | :-:           | :-:                         | :-:        | :-:      |
@@ -130,8 +130,7 @@ For my needs I find Julia typically fits the bill. That said - every project is 
 | A Specific Package    | Mathematics   |  Easy  | Mac, Win, Linux | Proprietary Language | Matlab  |
 
 ### Applications/Systems 
-
-I've been all over the place with these languages. I haven't really learned Rust, well I tried for a few days. Had to gave up for the time being. I am preferential to Go for now. Go is safe enough, fast enough, and easy enough for me to quickly create working binaries. For other projects, I've ran to C++, and for a few years of my life I spent a lot of time in C# doing game development. All of these have their pros and cons. For what I do these days Go-lang sits in a serious sweet spot.
+I've been all over the place with the languages in this section. I haven't really learned Rust, well I tried for a few days. Had to gave up for the time being. I am preferential to Go for now. Go is safe enough, fast enough, and easy enough for me to quickly create working binaries. For other projects, I've ran to C++, and for a few years of my life I spent a lot of time in C# doing game development. All of these have their pros and cons. For what I do these days Go-lang sits in a serious sweet spot.
 
 | Primary Need | Secondary Need | Tertiary Need | Platform                    | Okay With   | Language |  
 |     :-:      | :-:            | :-:           | :-:                         | :-:         | :-:      |
