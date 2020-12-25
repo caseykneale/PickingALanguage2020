@@ -16,7 +16,7 @@ This section serves to detail some items to keep in mind as you drill down the c
 
 How savvy is the team with computer science/development? Can they learn a new language on their own? How long might that take given the complexity of a tool? 
 
-\*Incentive:\*
+**Incentive:**
 
 Is there an incentive to offer a **change** to be put in place? Is continuous learning a cultural norm? Are there selling points to make a change a "net positive" for the people involved in the project?
 
@@ -30,7 +30,7 @@ Is there a culture of psychological safety and merit-based reward systems? If no
 
 Desktop/Embedded/Cloud/On Premises/etc. What do the users need, make a survey/do some research, talk to marketing? 
 
-\*Identify Sources of Novelty:\* 
+**Identify Sources of Novelty:**
 
 Is your killer feature a huge distributed computing web framework behind a super clean easy to use front end? Might need to look at languages supporting stable parallelism, and their ecosystems. Maybe you need stability, your competitor offerings are very glitchy, look into type safety. Maybe you need a highly interactive GUI - what API's are accessible to the languages.
 
@@ -47,10 +47,20 @@ Budget for closed source languages (matlab, etc), for training new staff, licens
 * Programs, dependencies, data, and related files, consume disk space.
 * Hardware has a life expectancy, and redundancies are necessary.
 
-Useful study:
-
+*Useful study:*
 <https://stefanos1316.github.io/my_curriculum_vitae/GKS17.pdf>. 
 
 # What Options are Available in 2020?
 
-There are currently hundreds of programming languages in existence. Thankfully many of them can be rejected for any project that isn't for funsies without effort. For example, no one will ever use Hexagony(<https://esolangs.org/wiki/Hexagony>) in production.    
+There are currently hundreds of programming languages in existence. Thankfully many of them can be rejected for any project that isn't for funsies without effort. For example, no one will ever use Hexagony(<https://esolangs.org/wiki/Hexagony>) in production. The human race is thankful for that. But - even after widdling down the choices there's still probably 50 or so that are feasible for most modern needs.
+
+## Systems Programming Languages
+C, C++, Rust, Go, Swift, Nim, D 
+
+## JVM Based languages
+Clojure, Groovy, JRuby, Jython, Kotlin, Scala
+
+## Data Science Languages
+Julia, Python, R, Matlab, Octave, Scilab.
+
+
