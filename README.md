@@ -24,6 +24,9 @@ Is there an incentive to offer a **change** to be put in place? Is continuous le
 
 Is there a culture of psychological safety and merit-based reward systems? If not, trying new things can scare people away. 
 
+**Risk:**
+Whats the risk of picking "the wrong language"? Is it, a total failure for a product, or a slight delay? How quickly might that realization be made? 
+
 ## Define the problem statement
 
 **Pick Target Platform(s):** 
