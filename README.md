@@ -75,7 +75,6 @@ Haskell, Clojure, Scala, Erlang, Clean, F#, ML/OCaml, Lisp / Scheme
 ## Mathematical Programming Languages
 Julia, Wolfram Language, Matlab / GNU Octave, R, Coq / Gallina, Prolog, Haskell.
 
-| Syntax | Description |
-| --- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+| Language | Imperitive | Functional | Object Oriented | Systems Programming|
+| - | - | - | - |- |
+| C | X |  |  |  | X |
