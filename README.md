@@ -58,7 +58,7 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | Language | Imperitive | Object Oriented | Systems Programming|
 | -       | - | - | - |
 | C       | X |   | X |
-| Fortran | X |   | X |
+| Fortran | X |   |   |
 | Cobol   | X | X | X |
 
 ## Object Oriented Programming Languages
