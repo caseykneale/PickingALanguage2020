@@ -66,7 +66,7 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | -        | :-: | :-: | :-: | :-: | :-: |
 | C++      |   | X | X | X | 3 |
 | C#       | X | X | X | X | 2 |
-| PHP      | X |   |   | C | 2 |
+| PHP      | X |   |   | X | 2 |
 | Java     | X | X | X | X | 2 |
 
 ** Difficulty is subjective, ? means I've never used it **
@@ -112,3 +112,10 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | R                  | X | X | X |   | X | 1 |
 | Matlab/Octave      | X | X | X |   | X | 1 |
 
+
+## Others
+| Language           | FP | OOP | Static Typing | Compiled | Parallelism | 
+| -                  | :-: | :-: | :-: | :-: | :-: |
+| Ruby               | X | X | X | X | X |
+| Perl               | X | X | X | X | X |
+| Visual Basic       | D | O | N | ' | T |
