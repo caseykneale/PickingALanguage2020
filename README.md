@@ -80,44 +80,44 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | [C++](https://www.cplusplus.com/doc/)     |   | X |   | X | X | 3 |
 | [Rust](https://www.rust-lang.org/learn)    | X | X | X | X | X | 3 |
 | [Go](https://golang.org/doc/)      | X | X | X | X | X | 1 |
-| Nim     | X | X | X | X | X | 1 |
-| Swift   | X | X | X | X | X | ? |
-| D       |   | X | X | X | X | ? |
+| [Nim](https://nim-lang.org/documentation.html)     | X | X | X | X | X | 1 |
+| [Swift](https://swift.org/documentation/)   | X | X | X | X | X | ? |
+| [D](https://dlang.org/documentation.html)       |   | X | X | X | X | ? |
 
 ** Difficulty is subjective, ? means I've never used it **
 ## JVM Based languages
 | Language    | FP | OOP | Parallelism | Difficulty |
 | -           | :-: | :-: | :-: | :-: |
 | [Java](https://docs.oracle.com/en/java/)       |   | X | X | 2 |
-| Scala       | X | X | X | 3 |
-| Clojure     | X | X | X | ? |
-| Groovy      | X | X | X | ? |
-| Jython      | X | X | X | ? |
-| Kotlin      | X | X | X | ? |
+| [Scala](https://docs.scala-lang.org/)       | X | X | X | 3 |
+| [Clojure](https://clojuredocs.org/)     | X | X | X | ? |
+| [Groovy](https://groovy-lang.org/documentation.html)      | X | X | X | ? |
+| [Jython](https://www.jython.org/)      | X | X | X | ? |
+| [Kotlin](https://kotlinlang.org/docs/reference/)      | X | X | X | ? |
 
 ## Functional Programming Languages
 | Language           | FP | OOP | Difficulty |
 | -                  | :-: | :-: | :-: |
 | [Julia](https://julialang.org/) | X |   | X |
-| Scala              | X | X | 3 |
-| Haskell            | X |   | ? |
-| Clean              | X |   | ? |
-| F#                 | X | X | ? |
-| Erlang             | X | X | ? |
-| ML/OCaml           | X | X | ? |
-| Lisp / Scheme      | X | X | ? |
+| [Scala](https://docs.scala-lang.org/)              | X | X | 3 |
+| [Haskell](https://www.haskell.org/documentation/)            | X |   | ? |
+| [Clean](https://clean.cs.ru.nl/Clean)              | X |   | ? |
+| [F#](https://fsharp.org/about/)                 | X | X | ? |
+| [Erlang](https://www.erlang.org/docs)             | X | X | ? |
+| [OCaml](https://ocaml.org/docs/)           | X | X | ? |
+| [Lisp](https://lisp-lang.org/)      | X | X | ? |
 
 ## Data Science Languages
 | Language           | FP | OOP | Static Typing | Compiled | Parallelism | Difficulty |
 | -                  | :-: | :-: | :-: | :-: | :-: | :-: |
 | [Julia](https://julialang.org/)              | X |   | X | X | X | 1 |
-| Python             | X | X | X |   |   | 1 |
-| R                  | X | X | X |   | X | 1 |
-| Matlab/Octave      | X | X | X |   | X | 1 |
+| [Python](https://docs.python.org/3/)             | X | X | X |   |   | 1 |
+| [R](https://www.r-project.org/other-docs.html)                  | X | X | X |   | X | 1 |
+| [Matlab](https://www.mathworks.com/help/matlab/language-fundamentals.html)/[Octave](https://www.gnu.org/software/octave/index)      | X | X | X |   | X | 1 |
 
 ## Others
 | Language           | FP | OOP | Static Typing | Compiled | Parallelism | 
 | -                  | :-: | :-: | :-: | :-: | :-: |
-| Ruby               | X | X | X | X | X |
-| Perl               | X | X | X | X | X |
+| [Ruby](https://www.ruby-lang.org/en/documentation/)               | X | X | X | X | X |
+| [Perl](https://perldoc.perl.org/)               | X | X | X | X | X |
 | Visual Basic       | D | O | N | ' | T |
