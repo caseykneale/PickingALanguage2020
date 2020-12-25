@@ -88,17 +88,31 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | -           | - | - | - |
 | Java        |   | X | 2 |
 | Scala       | X | X | 3 |
-| Clojure     |   | X | ? |
+| Clojure     | X | X | ? |
 | Groovy      | X | X | ? |
 | Jython      | X | X | ? |
 | Kotlin      | X | X | ? |
 
-## Data Science Languages
-Julia, Python, R, Matlab, Octave, Scilab.
-
 ## Functional Programming Languages
-Haskell, Clojure, Scala, Erlang, Clean, F#, ML/OCaml, Lisp / Scheme
+| Language           | FP | OOP | Difficulty |
+| -                  | - | - | - |
+| Scala              | X | X | 3 |
+| Haskell            | X |   | ? |
+| Clean              | X |   | ? |
+| F#                 | X | X | ? |
+| Erlang             | X | X | ? |
+| ML/OCaml           | X | X | ? |
+| Lisp / Scheme      | X | X | ? |
+
+## Data Science Languages
+
+| Language           | FP | OOP | Static Typing | Compiled | Difficulty |
+| -                  | - | - | - | - | - |
+| Julia              | X |   | X | X | 1 |
+| Python             | X | X | X |   | 1 |
+| R                  | X | X | X |   | 1 |
+| Matlab/Octave      | X | X | X |   | 1 |
 
 ## Mathematical Programming Languages
-Julia, Wolfram Language, Matlab / GNU Octave, R, Coq / Gallina, Prolog, Haskell.
+Julia, Wolfram Language, Matlab / GNU Octave, R, Coq / Gallina, Prolog, Haskell, scilab.
 
