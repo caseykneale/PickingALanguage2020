@@ -55,7 +55,11 @@ Budget for closed source languages (matlab, etc), for training new staff, licens
 There are currently hundreds of programming languages in existence. Thankfully many of them can be rejected for any project that isn't for funsies without effort. For example, no one will ever use Hexagony(<https://esolangs.org/wiki/Hexagony>) in production. The human race is thankful for that. But - even after widdling down the choices there's still probably 50 or so that are feasible for most modern needs.
 
 ## Procedural Programming Languages
-Fortran, C, COBOL.
+| Language | Imperitive | Object Oriented | Systems Programming|
+| -       | - | - | - |
+| C       | X |   | X |
+| Fortran | X |   | X |
+| Cobol   | X | X | X |
 
 ## Object Oriented Programming Languages
 Smalltalk, C++, C#, Eiffel, PHP, and Java
@@ -63,6 +67,15 @@ Smalltalk, C++, C#, Eiffel, PHP, and Java
 ## Systems Programming Languages
 C, C++, Rust, Go, Swift, Nim, D 
 
+| Language | Imperitive | FP | OOP | Systems Programming|
+| -       | - | - | - | - |
+| C       | X |   |   | X |
+| C++     | X |   | X | X |
+| Rust    | X | X | X | X |
+| Go      | X | X | X | X |
+| Swift   | X | X | X | X |
+| Nim     | X | X | X | X |
+| D       | X | X | X | X |
 ## JVM Based languages
 Java, Clojure, Groovy, JRuby, Jython, Kotlin, Scala
 
@@ -75,8 +88,3 @@ Haskell, Clojure, Scala, Erlang, Clean, F#, ML/OCaml, Lisp / Scheme
 ## Mathematical Programming Languages
 Julia, Wolfram Language, Matlab / GNU Octave, R, Coq / Gallina, Prolog, Haskell.
 
-| Language | Imperitive | Functional | Object Oriented | Systems Programming|
-| -       | - | - | - | - |
-| C       | X |   |   | X |
-| C++     | X |   | X | X |
-| Fortran | X |   |   | X |
