@@ -78,13 +78,20 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | C++     |   | X |   | X | X | 3 |
 | Rust    | X | X | X | X | X | 3 |
 | Go      | X | X | X | X | X | 1 |
-| Swift   | X | X | X | X | X | ? |
 | Nim     | X | X | X | X | X | 1 |
+| Swift   | X | X | X | X | X | ? |
 | D       |   | X | X | X | X | ? |
 
 ** Difficulty is subjective, ? means I've never used it **
 ## JVM Based languages
-Java, Clojure, Groovy, JRuby, Jython, Kotlin, Scala
+| Language    | FP | OOP | Difficulty |
+| -           | - | - | - |
+| Java        |   | X | 2 |
+| Scala       | X | X | 3 |
+| Clojure     |   | X | ? |
+| Groovy      | X | X | ? |
+| Jython      | X | X | ? |
+| Kotlin      | X | X | ? |
 
 ## Data Science Languages
 Julia, Python, R, Matlab, Octave, Scilab.
