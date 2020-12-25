@@ -13,15 +13,12 @@ This section serves to detail some items to keep in mind as you drill down the c
 ## Assess Resources
 
 **Technical ability:** 
-
 How savvy is the team with computer science/development? Can they learn a new language on their own? How long might that take given the complexity of a tool? 
 
 **Incentive:**
-
 Is there an incentive to offer a **change** to be put in place? Is continuous learning a cultural norm? Are there selling points to make a change a "net positive" for the people involved in the project?
 
 **Safety:** 
-
 Is there a culture of psychological safety and merit-based reward systems? If not, trying new things can scare people away. 
 
 **Risk:**
@@ -30,19 +27,15 @@ Whats the risk of picking "the wrong language"? Is it, a total failure for a pro
 ## Define the problem statement
 
 **Pick Target Platform(s):** 
-
 Desktop/Embedded/Cloud/On Premises/etc. What do the users need, make a survey/do some research, talk to marketing? 
 
 **Identify Sources of Novelty:**
-
-Is your killer feature a huge distributed computing web framework behind a super clean easy to use front end? Might need to look at languages supporting stable parallelism, and their ecosystems. Maybe you need stability, your competitor offerings are very glitchy, look into type safety. Maybe you need a highly interactive GUI - what API's are accessible to the languages.
+Is your killer feature a huge distributed computing web framework behind a super clean easy to use front end? Might need to look at languages supporting stable parallelism, and their ecosystems. Maybe you need stability, your competitor offerings are very glitchy, look into type safety. Maybe you need a highly interactive GUI - what GUI API's are accessible to the languages you're interested in?
 
 **Identify Technical Need:**
-
 Items to keep in mind: performance, mathematics, networking, parallelism, beauty, maintainability(short-term/long-term).
 
 ## Estimate Cost and Benefits
-
 Budget for closed source languages (matlab, etc), for training new staff, licenses are needed to use 3rd party tools, etc. If you are using on premises hard-ware remember, there is a cost of ownership. Here are some rules of the road:
 
 * Programs consume memory and CPU/GPU cycles
