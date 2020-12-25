@@ -38,7 +38,7 @@ Is your killer feature a huge distributed computing web framework behind a super
 
 Items to keep in mind: performance, mathematics, networking, parallelism, beauty, maintainability(short-term/long-term).
 
-## Estimate Cost
+## Estimate Cost and Benefits
 
 Budget for closed source languages (matlab, etc), for training new staff, licenses are needed to use 3rd party tools, etc. If you are using on premises hard-ware remember, there is a cost of ownership. Here are some rules of the road:
 
@@ -62,9 +62,6 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | -       | :-: | :-: | :-: |
 | [C](https://devdocs.io/c/)       | X |   | X |
 | [Fortran](https://devdocs.io/gnu_fortran~4/) | X |   |   |
-| Cobol   | X | X | X |
-
-**Please don't use Cobol - it's primary utility is related to legacy (read: ancient) systems..**
 
 ## Object Oriented Programming Languages
 | Language | GC | Compiled | Staticly Typed | Parallelism | Difficulty |
@@ -73,8 +70,6 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)       | X | X | X | X | 2 |
 | [PHP](https://www.php.net/docs.php)      | X |   |   | X | 2 |
 | [Java](https://docs.oracle.com/en/java/)     | X | X | X | X | 2 |
-
-** Difficulty is subjective, ? means I've never used it **
 
 ## Systems Programming Languages
 | Language | Embedded Systems | Memory Safety | Imperitive | FP | OOP | Parallelism | Adoption | Difficulty |
@@ -122,23 +117,25 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | -                  | :-: | :-: | :-: | :-: | :-: |
 | [Ruby](https://www.ruby-lang.org/en/documentation/)               | X | X | X | X | X |
 | [Perl](https://perldoc.perl.org/)               | X | X | X | X | X |
+| Cobol   | P | L | EA | S | E |
 | Visual Basic       | D | O | N | ' | T |
+| Pascal       | N | O | P | E | ! |
 
 ## My Suggestions 
 
 ### Data
-For my needs I find Julia typically fits the bill. That said - every project is different. Sometimes I run to R for some vetted statistical methods. But, I mostly find myself creating new algorithms so I run to Julia for fast prototyping and fast deployment.
+For my needs I find Julia typically fits the bill. That said - every project is different. Sometimes I run to R for some vetted statistical methods. But, I mostly find myself creating new algorithms so I run to Julia for fast prototyping, performance tuning, and fast deliverables. Python is nice, but it has some deficits for what I do. I use python when my bosses' ask me too.
 
 | Primary Need | Secondary Need | Tertiary Need | Platform                    | Okay With  | Language |  
 |     :-:      | :-:            | :-:           | :-:                         | :-:        | :-:      |
 | Mathematics  | Speed          | Easy          | Mac, Win, Linux, Web, Cloud | JIT        | Julia    |
 | Statistics   | Easy           | Free APIs     | Mac, Win, Linux, Web, Cloud | Slowness/needing C++ | R    |
 | Free APIs    | Easy           | Mathematics   | Mac, Win, Linux, Web, Cloud | Slowness/needing C++ | Python  |
-| A Specific Package    | Easy           | Mathematics   | Mac, Win, Linux | Proprietary Lang. | Matlab  |
+| A Specific Package    | Easy           | Mathematics   | Mac, Win, Linux | Proprietary Language | Matlab  |
 
 ### Applications/Systems 
 
-I've been all over the place with these languages. I haven't really learned - Rust, well I tried for a few days and gave up for the time being. But, I am preferential to Go for now. It's safe enough, fast enough, and easy enough for me to quickly create working binaries. For other projects, I've ran to C++, and for a few years of my life I spent a lot of time in C# doing game development. All of these have their pros and cons, but for what I do these days - Go is a serious sweet spot.
+I've been all over the place with these languages. I haven't really learned Rust, well I tried for a few days. Had to gave up for the time being. I am preferential to Go for now. Go is safe enough, fast enough, and easy enough for me to quickly create working binaries. For other projects, I've ran to C++, and for a few years of my life I spent a lot of time in C# doing game development. All of these have their pros and cons, but for what I do these days - Go-lang sits in a serious sweet spot.
 
 | Primary Need | Secondary Need | Tertiary Need | Platform                    | Okay With   | Language |  
 |     :-:      | :-:            | :-:           | :-:                         | :-:         | :-:      |
@@ -149,10 +146,17 @@ I've been all over the place with these languages. I haven't really learned - Ru
 | Desktop      | Stability      | GUI           | Win(best), Mac, Linux       | GC          | C#       |
 
 ### JVM
-I have fallen out of love with JVM based languages. Java used to be my primary language, but, once I became exposed to other languages and crossplatform support became a language requirement - I moved away from it. There are some good things about Java, it's relatively easy to get a group of people to write idiomatic Java and have good coherence across projects. Back in the day, it was pretty fast (relatively speaking), but that's just not the case anymore. Scala is neat, some great tools are written in it. But, the second scariest code I've ever seen was written in Scala. That takes the cake for me - Scala is a little too "liberating", and as such, you can end up with scary syntax between teammates, projects, companies, etc. Don't ask me about the scariest code I've ever seen, all I can say is - it wasn't my own. 
+I had a falling out with JVM based languages. Java used to be my primary language. Once I became exposed to other languages and crossplatform support became a language requirement - it offered me less and less. There are some good things about Java, it's relatively easy to get a group of people to write idiomatic Java and have good coherence across projects. Back in the day, it was pretty fast (relatively speaking), but that's just not the case anymore. Scala is neat, some great tools are written in it. The second scariest code I've ever seen was written in Scala. That takes the cake for me - Scala is a little too "liberating", and as such, you can end up with scary syntax between teammates, projects, companies, etc. 
+
+Don't even ask about the scariest code I've ever seen, all I can say is - it wasn't my own. 
 
 | Primary Need | Secondary Need | Tertiary Need | Platform                    | Okay With   | Language |  
 |     :-:      | :-:            | :-:           | :-:                         | :-:         | :-:      |
 | JVM      | Maturity           | Libraries     | Mac, Win, Linux, Web        | GC          | Java     |
 | JVM | Functional Programming  | Parallelism   | Mac, Win, Linux, Web        | Complexity  | Scala    |
 
+
+# Wrapping up
+Pick a language based on your need. If you pick languages, or any tool, based on blog posts, or social media hype, you're probably going to get burned. Need first, account for resources available, then weigh the pro's and con's. Technological idealism does not exist in industry nor academia. If it did - there would be a single programming language right? My primary choices are based on "easy" to write stable and performant programs in. My secondaries are based on "do I have time to do this myself?". 
+
+Word of warning. I encourage everyone to know enough about their field and the tools they use to not fall victim to choosing technology based on inability to do the work. Be curious. Engage in open source to learn as much as you can (and pad your resume/CV). Make cool things. If that doesn't work out, have has much fun as you can along the way! 
