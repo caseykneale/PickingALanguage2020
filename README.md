@@ -52,7 +52,10 @@ Budget for closed source languages (matlab, etc), for training new staff, licens
 
 # What Options are Available in 2020?
 
-There are currently hundreds of programming languages in existence. Thankfully many of them can be rejected for any project that isn't for funsies without effort. For example, no one will ever use Hexagony(<https://esolangs.org/wiki/Hexagony>) in production. The human race is thankful for that. But - even after widdling down the choices there's still probably 50 or so that are feasible for most modern needs. Below are some categorized lists of languages to help ease a search.
+There are currently hundreds of programming languages in existence. Thankfully many of them can be rejected for any project that isn't for funsies without effort. For example, no one will ever use Hexagony(<https://esolangs.org/wiki/Hexagony>) in production. The human race is thankful for that. But - even after widdling down the choices there's still probably 50 or so that are feasible for most modern needs. Below are some categorized lists of languages to help ease someones search. Again not all languages are included, just major contenders that I'm aware of. 
+
+** Please note, in some tables you will see a "Difficulty" score. This is subjective but included to give the reader a "feel" for my experience. The score is based on my perception of my ability to learn enough syntax and DevOps to create deployable projects. A ? score means I've never used the language **
+
 
 ## Procedural Programming Languages
 | Language | Imperitive | Object Oriented | Systems Programming|
@@ -84,7 +87,6 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | [Swift](https://swift.org/documentation/)   | X | X | X | X | X | X | Moderate | ? |
 | [D](https://dlang.org/documentation.html)       | X |  | X | X | X | X | Low | ? |
 
-** Difficulty is subjective, ? means I've never used it **
 ## JVM Based languages
 | Language    | FP | OOP | Parallelism | Adoption | Difficulty |
 | -           | :-: | :-: | :-: | :-: | :-: |
@@ -112,7 +114,7 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | -                  | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | [Julia](https://julialang.org/)              | X |   | X | X | X | Low | 1 |
 | [Python](https://docs.python.org/3/)             | X | X | X |   |   | High | 1 |
-| [R](https://www.r-project.org/other-docs.html)                  | X | X | X |   | X | High | 1 |
+| [R](https://www.r-project.org/other-docs.html)                  | X | X | X |   | X | High | 2 |
 | [Matlab](https://www.mathworks.com/help/matlab/language-fundamentals.html)/[Octave](https://www.gnu.org/software/octave/index)      | X | X | X |   | X | Moderate | 1 |
 
 ## Others
@@ -147,7 +149,7 @@ I've been all over the place with these languages. I haven't really learned - Ru
 | Desktop      | Stability      | GUI           | Win(best), Mac, Linux       | GC          | C#       |
 
 ### JVM
-I have fallen out of love with JVM based languages. Java used to be my primary language, but, once I became exposed to other languages and crossplatform support became a language requirement - I ran from it very quickly. There are some good things about Java, it's relativelyy easy to get a team to write idiomatic Java and have good coherence across projects. Back in the day, it was pretty fast (relatively speaking), but that's just not the case anymore. Scala is neat, some great tools are written in it. But, the second scariest code I've ever seen was written in Scala. That's takes the cake for me - it's a little too "liberating", and as such, you can end up with scary syntax between teammates, projects, companies, etc. Don't ask me about the scariest code I've ever seen, all I can say is - it wasn't my own.
+I have fallen out of love with JVM based languages. Java used to be my primary language, but, once I became exposed to other languages and crossplatform support became a language requirement - I moved away from it. There are some good things about Java, it's relatively easy to get a group of people to write idiomatic Java and have good coherence across projects. Back in the day, it was pretty fast (relatively speaking), but that's just not the case anymore. Scala is neat, some great tools are written in it. But, the second scariest code I've ever seen was written in Scala. That takes the cake for me - Scala is a little too "liberating", and as such, you can end up with scary syntax between teammates, projects, companies, etc. Don't ask me about the scariest code I've ever seen, all I can say is - it wasn't my own. 
 
 | Primary Need | Secondary Need | Tertiary Need | Platform                    | Okay With   | Language |  
 |     :-:      | :-:            | :-:           | :-:                         | :-:         | :-:      |
