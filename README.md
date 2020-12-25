@@ -125,6 +125,8 @@ There are currently hundreds of programming languages in existence. Thankfully m
 ## My Suggestions 
 
 ### Data
+For my needs I find Julia typically fits the bill. That said - every project is different. Sometimes I run to R for some vetted statistical methods. But, I mostly find myself creating new algorithms so I run to Julia for fast prototyping and fast deployment.
+
 | Primary Need | Secondary Need | Tertiary Need | Platform                    | Okay With  | Language |  
 |     :-:      | :-:            | :-:           | :-:                         | :-:        | :-:      |
 | Mathematics  | Speed          | Easy          | Mac, Win, Linux, Web, Cloud | JIT        | Julia    |
@@ -133,15 +135,20 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | A Specific Package    | Easy           | Mathematics   | Mac, Win, Linux | Proprietary Lang. | Matlab  |
 
 ### Applications/Systems 
+
+I've been all over the place with these languages. I haven't really learned - Rust, well I tried for a few days and gave up for the time being. But, I am preferential to Go for now. It's safe enough, fast enough, and easy enough for me to quickly create working binaries. For other projects, I've ran to C++, and for a few years of my life I spent a lot of time in C# doing game development. All of these have their pros and cons, but for what I do these days - Go is a serious sweet spot.
+
 | Primary Need | Secondary Need | Tertiary Need | Platform                    | Okay With   | Language |  
 |     :-:      | :-:            | :-:           | :-:                         | :-:         | :-:      |
 | Easy         | Speed          | Parallelism   | Mac, Win, Linux, Web, Cloud | No Generics + Static Types | Go       |
 | Safety       | Speed          | Binaries      | Mac, Win, Linux, Web, Cloud | Difficult   | Rust     |
 | Speed        | Low Level Access | Binaries    | Mac, Win, Linux             | Unsafe Code | C      |
 | Low Level Access | Speed      | Easier than C | Mac, Win, Linux             | OOP         | C++      |
-| Desktop      | Stability      | GUI           | Win                         | GC          | C#       |
+| Desktop      | Stability      | GUI           | Win(best), Mac, Linux       | GC          | C#       |
 
 ### JVM
+I have fallen out of love with JVM based languages. Java used to be my primary language, but, once I became exposed to other languages and crossplatform support became a language requirement - I ran from it very quickly. There are some good things about Java, it's relativelyy easy to get a team to write idiomatic Java and have good coherence across projects. Back in the day, it was pretty fast (relatively speaking), but that's just not the case anymore. Scala is neat, some great tools are written in it. But, the second scariest code I've ever seen was written in Scala. That's takes the cake for me - it's a little too "liberating", and as such, you can end up with scary syntax between teammates, projects, companies, etc. Don't ask me about the scariest code I've ever seen, all I can say is - it wasn't my own.
+
 | Primary Need | Secondary Need | Tertiary Need | Platform                    | Okay With   | Language |  
 |     :-:      | :-:            | :-:           | :-:                         | :-:         | :-:      |
 | JVM      | Maturity           | Libraries     | Mac, Win, Linux, Web        | GC          | Java     |
