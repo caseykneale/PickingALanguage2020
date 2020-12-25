@@ -74,6 +74,7 @@ Smalltalk, C++, C#, Eiffel, PHP, and Java
 | Swift   | X | X | X | X | X | ? |
 | Nim     | X | X | X | X | X | 1 |
 | D       |   | X | X | X | X | ? |
+
 ** Difficulty is subjective, ? means I've never used it **
 ## JVM Based languages
 Java, Clojure, Groovy, JRuby, Jython, Kotlin, Scala
