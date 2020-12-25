@@ -98,7 +98,7 @@ There are currently hundreds of programming languages in existence. Thankfully m
 ## Functional Programming Languages
 | Language           | FP | OOP | Difficulty |
 | -                  | :-: | :-: | :-: |
-| [Julia](https://julialang.org/) | X |   | X |
+| [Julia](https://julialang.org/) | X |   | 1 |
 | [Scala](https://docs.scala-lang.org/)              | X | X | 3 |
 | [Haskell](https://www.haskell.org/documentation/)            | X |   | ? |
 | [Clean](https://clean.cs.ru.nl/Clean)              | X |   | ? |
