@@ -124,7 +124,7 @@ For my needs I find Julia typically fits the bill. That said - every project is 
 
 | Primary Need | Secondary Need | Tertiary Need | Platform                    | Okay With  | Language |  
 |     :-:      | :-:            | :-:           | :-:                         | :-:        | :-:      |
-| Mathematics  | Speed          | Easy          | Mac, Win, Linux, Web, Cloud | JIT        | Julia    |
+| Mathematics  | Speed          | Easy          | Mac, Win, Linux, Web, Cloud | JIT/JAOT        | Julia    |
 | Statistics   | Easy           | Free APIs     | Mac, Win, Linux, Web, Cloud | Slowness/needing C++ | R    |
 | Free APIs    | Easy           | Mathematics   | Mac, Win, Linux, Web, Cloud | Slowness/needing C++ | Python  |
 | A Specific Package    | Mathematics   |  Easy  | Mac, Win, Linux | Proprietary Language | Matlab  |
