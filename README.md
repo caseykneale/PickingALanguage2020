@@ -138,7 +138,7 @@ For my needs I find Julia typically fits the bill. That said - every project is 
 
 ### Applications/Systems 
 
-I've been all over the place with these languages. I haven't really learned Rust, well I tried for a few days. Had to gave up for the time being. I am preferential to Go for now. Go is safe enough, fast enough, and easy enough for me to quickly create working binaries. For other projects, I've ran to C++, and for a few years of my life I spent a lot of time in C# doing game development. All of these have their pros and cons, but for what I do these days - Go-lang sits in a serious sweet spot.
+I've been all over the place with these languages. I haven't really learned Rust, well I tried for a few days. Had to gave up for the time being. I am preferential to Go for now. Go is safe enough, fast enough, and easy enough for me to quickly create working binaries. For other projects, I've ran to C++, and for a few years of my life I spent a lot of time in C# doing game development. All of these have their pros and cons. For what I do these days Go-lang sits in a serious sweet spot.
 
 | Primary Need | Secondary Need | Tertiary Need | Platform                    | Okay With   | Language |  
 |     :-:      | :-:            | :-:           | :-:                         | :-:         | :-:      |
@@ -160,6 +160,6 @@ Don't even ask about the scariest code I've ever seen, all I can say is - it was
 
 
 # Wrapping up
-Pick a language based on your need. If you pick languages, or any tool, based on blog posts, or social media hype, you're probably going to get burned. Need first, account for resources available, then weigh the pro's and con's. Technological idealism does not exist in industry nor academia. If it did - there would be a single programming language right? My primary choices are based on "easy" to write stable and performant programs in. My secondaries are based on "do I have time to do this myself?". 
+Pick a language based on your need. If you pick languages, or any tool, based on blog posts, or social media hype, you're probably going to get burned. Need first, account for resources available, then weigh the pro's and con's. Technological idealism does not exist in industry nor academia. If it did - there would be a single programming language - right? My primary choices are based on "easy" to write stable and performant programs in. My secondaries are based on "do I have time to do this myself?". 
 
 Word of warning. I encourage everyone to know enough about their field and the tools they use so they do not fall victim to choosing technology based on inability to do the work without them. Be curious. Engage in open source to learn as much as you can. Make cool things. If that doesn't work out, have has much fun as you can along the way! 
