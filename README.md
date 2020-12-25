@@ -130,15 +130,16 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | Mathematics  | Speed          | Easy          | Mac, Win, Linux, Web, Cloud | JIT        | Julia    |
 | Statistics   | Easy           | Free APIs     | Mac, Win, Linux, Web, Cloud | Slowness/needing C++ | R    |
 | Free APIs    | Easy           | Mathematics   | Mac, Win, Linux, Web, Cloud | Slowness/needing C++ | Python  |
+| A Specific Package    | Easy           | Mathematics   | Mac, Win, Linux | Proprietary Lang. | Matlab  |
 
 ### Applications/Systems 
 | Primary Need | Secondary Need | Tertiary Need | Platform                    | Okay With   | Language |  
 |     :-:      | :-:            | :-:           | :-:                         | :-:         | :-:      |
-| Desktop      | Stability      | GUI           | Win                         | GC          | C#       |
 | Compiled     | Speed          | Easy          | Mac, Win, Linux, Web, Cloud | No Generics | Go       |
 | Safety       | Speed          | Binaries      | Mac, Win, Linux, Web, Cloud | Difficult   | Rust     |
-| Low Level Access | Speed      | Binaries      | Mac, Win, Linux             | Unsafe Code | C        |
+| Speed        | Low Level Access | Binaries      | Mac, Win, Linux             | Unsafe Code | C      |
 | Low Level Access | Speed      | Easier than C | Mac, Win, Linux             | OOP         | C++      |
+| Desktop      | Stability      | GUI           | Win                         | GC          | C#       |
 
 ### JVM
 | Primary Need | Secondary Need | Tertiary Need | Platform                    | Okay With   | Language |  
