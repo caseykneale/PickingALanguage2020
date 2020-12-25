@@ -67,15 +67,15 @@ Smalltalk, C++, C#, Eiffel, PHP, and Java
 ## Systems Programming Languages
 C, C++, Rust, Go, Swift, Nim, D 
 
-| Language | Imperitive | FP | OOP | Systems Programming|
-| -       | - | - | - | - |
-| C       | X |   |   | X |
-| C++     | X |   | X | X |
-| Rust    | X | X | X | X |
-| Go      | X | X | X | X |
-| Swift   | X | X | X | X |
-| Nim     | X | X | X | X |
-| D       | X | X | X | X |
+| Language | Memory Safety | Imperitive | FP | OOP | Systems Programming|
+| -       | - | - | - | - | - |
+| C       |   | X |   |   | X |
+| C++     |   | X |   | X | X |
+| Rust    | X | X | X | X | X |
+| Go      | X | X | X | X | X |
+| Swift   | X | X | X | X | X |
+| Nim     | X | X | X | X | X |
+| D       |   | X | X | X | X |
 ## JVM Based languages
 Java, Clojure, Groovy, JRuby, Jython, Kotlin, Scala
 
