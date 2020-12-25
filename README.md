@@ -135,9 +135,9 @@ There are currently hundreds of programming languages in existence. Thankfully m
 ### Applications/Systems 
 | Primary Need | Secondary Need | Tertiary Need | Platform                    | Okay With   | Language |  
 |     :-:      | :-:            | :-:           | :-:                         | :-:         | :-:      |
-| Compiled     | Speed          | Easy          | Mac, Win, Linux, Web, Cloud | No Generics | Go       |
+| Easy         | Speed          | Parallelism   | Mac, Win, Linux, Web, Cloud | No Generics + Static Types | Go       |
 | Safety       | Speed          | Binaries      | Mac, Win, Linux, Web, Cloud | Difficult   | Rust     |
-| Speed        | Low Level Access | Binaries      | Mac, Win, Linux             | Unsafe Code | C      |
+| Speed        | Low Level Access | Binaries    | Mac, Win, Linux             | Unsafe Code | C      |
 | Low Level Access | Speed      | Easier than C | Mac, Win, Linux             | OOP         | C++      |
 | Desktop      | Stability      | GUI           | Win                         | GC          | C#       |
 
