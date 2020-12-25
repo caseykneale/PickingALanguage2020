@@ -62,7 +62,13 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | Cobol   | X | X | X |
 
 ## Object Oriented Programming Languages
-Smalltalk, C++, C#, Eiffel, PHP, and Java
+| Language | GC | Compiled | Static |
+| -        | - | - | - |
+| C++      |   | X | X |
+| C#       | X | X | X |
+| PHP      | X |   |   |
+| Java     | X | X | X |
+
 
 ## Systems Programming Languages
 | Language | Memory Safety | Imperitive | FP | OOP | Systems Programming | Difficulty |
