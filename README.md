@@ -121,7 +121,7 @@ There are currently hundreds of programming languages in existence. Thankfully m
 ### Data
 For my needs I find Julia typically fits the bill. That said - every project is different. Sometimes I run to R for vetted statistical methods. But, I mostly find myself creating new algorithms. So I use Julia for fast prototyping, performance tuning, and turning prototypes into fast deliverables. Also - the community is awesome! 
 
-Python is nice, but it has some deficits for what I do. I mostly use python when asked too by my superiors. Your mileage will likely vary here; I'm in a weird position. Python has great tools for routinely churning data, building pipelines, and deploying tools. A benefit to both Julia, Python, and R, is that they can interop with a suite of external tools to build productive stacks. Some stacks are easier to link than others.
+Python is nice, but it has some deficits for what I do. Your mileage will likely vary here; I'm in a weird position. Python has great tools for routinely churning data, building pipelines, and deploying tools. It also has a massive user base for better and for worse. One benefit to these kinds of languages(Julia, Python, and R), is that they tend to have good interoperability with a suite of external tools to build productive stacks. Some stacks are easier to link than others.
 
 | Primary Need | Secondary Need | Tertiary Need | Platform                    | Okay With  | Language |  
 |     :-:      | :-:            | :-:           | :-:                         | :-:        | :-:      |
@@ -131,7 +131,7 @@ Python is nice, but it has some deficits for what I do. I mostly use python when
 | A Specific Package    | Mathematics   |  Easy  | Mac, Win, Linux | Proprietary Language | Matlab  |
 | Spark | Custom Data Plumbing  | Parallelism  |  Mac, Win, Linux, Web        | Complexity  | Scala    |
 
-### Applications/Systems 
+### Applications/Systems Programming
 I've been all over the place with the languages in this section. I haven't really learned Rust, well I tried for a few days. Had to gave up for the time being. I am preferential to Go for now. Go is safe enough, fast enough, and easy enough for me to quickly create working binaries. For other projects, I've ran to C++, and for a few years of my life I spent a lot of time in C# doing game development. All of these have their pros and cons. For what I do these days Go-lang sits in a serious sweet spot.
 
 | Primary Need | Secondary Need | Tertiary Need | Platform                    | Okay With   | Language |  
