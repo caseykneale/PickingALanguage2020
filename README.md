@@ -108,7 +108,7 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | [Julia](https://julialang.org/)              | X |   | X | X | X | Low | Young | 1 |
 | [Python](https://docs.python.org/3/)             | X | X |   |   |   | High | Senior | 1 |
 | [R](https://www.r-project.org/other-docs.html)                  | X | X |   |   | X | High | Senior | 2 |
-| [Matlab](https://www.mathworks.com/help/matlab/language-fundamentals.html)/[Octave](https://www.gnu.org/software/octave/index)      | X | X |   |   | X | Moderate/Low | Senior | 1 |
+| [MATLAB](https://www.mathworks.com/help/matlab/language-fundamentals.html)/[Octave](https://www.gnu.org/software/octave/index)      | X | X |   |   | X | Moderate/Low | Senior | 1 |
 
 ## Others
 | Language           | FP | OOP | Static Typing | Compiled | Parallelism | 
@@ -131,7 +131,7 @@ Python is nice, but it has some deficits for what I do. Your mileage will likely
 | Mathematics  | Speed          | Easy          | Mac, Win, Linux, Web, Cloud | JIT/JAOT        | Julia    |
 | Statistics   | Easy           | Free APIs     | Mac, Win, Linux, Web, Cloud | Needing C++/APIs | R    |
 | Free APIs    | Easy           | Mathematics   | Mac, Win, Linux, Web, Cloud | Needing C++/APIs | Python  |
-| A Specific Package    | Mathematics   |  Easy  | Mac, Win, Linux | Proprietary Language | Matlab  |
+| A Specific Package    | Mathematics   |  Easy  | Mac, Win, Linux | Proprietary Language | MATLAB  |
 | Spark | Custom Data Plumbing  | Parallelism  |  Mac, Win, Linux, Web        | Complexity  | Scala    |
 
 ### Applications/Systems Programming
