@@ -85,7 +85,7 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | -           | :-: | :-: | :-: | :-: | :-: |
 | [Java](https://docs.oracle.com/en/java/)       |   | X | X | High | 2 |
 | [Scala](https://docs.scala-lang.org/)       | X | X | X | Moderate | 3 |
-| [Clojure](https://clojuredocs.org/)     | X | X | X | ? | ? |
+| [Clojure](https://clojuredocs.org/)     | X | X | X | ? | Moderate |
 | [Groovy](https://groovy-lang.org/documentation.html)      | X | X | X | ? |? |
 | [Jython](https://www.jython.org/)      | X | X | X | Niche | ? |
 | [Kotlin](https://kotlinlang.org/docs/reference/)      | X | X | X | ? | ? |
@@ -100,7 +100,7 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | [F#](https://fsharp.org/about/)                 | X | X | ? |
 | [Erlang](https://www.erlang.org/docs)             | X | X | ? |
 | [OCaml](https://ocaml.org/docs/)           | X | X | ? |
-| [Lisp](https://lisp-lang.org/)      | X | X | ? |
+| [CLisp](https://lisp-lang.org/)      | X | X | ? |
 
 ## Data Science Languages
 | Language           | FP | OOP | Static Typing | Compiled | Parallelism | Adoption | Ecosystem | Difficulty |
@@ -113,8 +113,8 @@ There are currently hundreds of programming languages in existence. Thankfully m
 ## Others
 | Language           | FP | OOP | Static Typing | Compiled | Parallelism | 
 | -                  | :-: | :-: | :-: | :-: | :-: |
-| [Ruby](https://www.ruby-lang.org/en/documentation/)               | X | X | X | X | X |
-| [Perl](https://perldoc.perl.org/)               | X | X | X | X | X |
+| [Ruby](https://www.ruby-lang.org/en/documentation/)               | X | X | X |   | X |
+| [Perl](https://perldoc.perl.org/)               | X | X | X |   | X |
 | Cobol   | P | L | EA | S | E |
 | Visual Basic       | D | O | N | ' | T |
 | Pascal       | N | O | P | E | ! |
