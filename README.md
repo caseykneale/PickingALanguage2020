@@ -1,4 +1,4 @@
-# Picking a Programming Language in 2020? (Opinion)
+# Picking a Programming Language at the End of 2020? (Opinion)
 
 I'm an unabashed data geek working in industry who specializes in *dealing with* chemical data. I wear hats that span the set from analytical chemist, data scientist, and software developer. With a little bit of everything in between. Over the years I've written hundreds of thousands of lines of code. Some of it quite good, some of it so bad that I hope there are no traces of it on the internet. I do this both as a hobby and as a means of putting food on the table.
 
