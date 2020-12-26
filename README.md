@@ -50,7 +50,7 @@ Budget for closed source languages (matlab, etc), for training new staff, licens
 
 There are currently hundreds of programming languages in existence. Thankfully many of them can be rejected for any project that isn't for funsies without effort. For example, no one will ever use [Hexagony](<https://esolangs.org/wiki/Hexagony>) in production. The human race is thankful for that. But - even after widdling down the choices there's still probably 50 or so that are feasible for most modern needs. Below are some categorized lists of languages to help ease someones search. Again not all languages are included, just major contenders that I'm aware of. After this section I offer my preferences and why.
 
-**Please note, in some tables you will see a "Difficulty" score. This is subjective but included to give the reader a "feel" for my experience using a variety of languages. The score is based on my perception of my ability to learn enough syntax and DevOps to create deployable projects. A of 1 means it's easy, 3 means it's about as had as it gets, and a `?` score means I've never used the language**
+**Please note, in some tables you will see a "Difficulty" score. This is subjective but included to give the reader a "feel" for my experience using a variety of languages. The score is based on my perception of my ability to learn enough syntax and DevOps to create deployable projects. A score of 1 means it's easy, 3 means it's about as had as it gets, and a `?` score means I've never used the language**
 
 
 ## Procedural Programming Languages
@@ -74,7 +74,7 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | [C++](https://www.cplusplus.com/doc/)     | X |   | X |   | X | X | High | 3 |
 | [Rust](https://www.rust-lang.org/learn)    | X | X | X | X | X | X | Low | 3 |
 | [Go](https://golang.org/doc/)      | X | X | X | X | X | X | Moderate | 1 |
-| [Nim](https://nim-lang.org/documentation.html)     | X | X | X | X | X | X | Low | 1 |
+| [Nim](https://nim-lang.org/documentation.html)     | X | X | X | X | X | X | Low | 2 |
 | [Swift](https://swift.org/documentation/)   | X | X | X | X | X | X | Moderate | ? |
 | [D](https://dlang.org/documentation.html)       | X |  | X | X | X | X | Low | ? |
 
