@@ -4,7 +4,7 @@ I'm an unabashed data geek working in industry who specializes in *dealing with*
 
 I have worked alongside high-flying data scientists - you know the geniuses who can scrap together a new algorithm using mathematics that wasn't known to exist and raise them to production on time. I have also worked alongside low-level systems programmers - the type of people who giggle when their code pushes servers to literally smoke and catch fire. For some developers/scientists, like myself, the line between these two groups gets a bit blurry. I figured I'd offer a mediated opinion on scouting programming languages. 
 
-I wrote this post because I often see or hear about schisms in teams formed from disparities in tooling. Those kinds of divergences can cause fractures in deliverables/products and make pain points in large code bases. I also tend to see a lot of hype pouring from influencer types that really muddies the waters for people looking for straightforward suggestions. Thankfully beneath the curtain of advertising and self-promotion, the water really isn't all that murky. Choosing tools is based on technological merit, but also social/business needs. 
+Every year I scout programming languages to see what advances have been made, and if I should make a change. I wrote this post because I often see or hear about schisms in teams formed from disparities in tooling. Those kinds of divergences can cause fractures in deliverables/products and introduce pain points in large codebases. I also tend to see a lot of hype pouring from influencer types that really muddy the waters for people looking for straightforward suggestions. Thankfully beneath the curtain of advertising and self-promotion, the water really isn't all that murky. Choosing tools is based on technological merit, but also social/business needs. 
 
 # High-level Decision Process
 
@@ -19,10 +19,10 @@ How savvy is the team with computer science/development? Can they learn a new la
 Is there an incentive to offer a **change** to be put in place? Is continuous learning a cultural norm? Are there selling points to make a change a "net positive" for the people involved in the project?
 
 **Safety:** 
-Is there a culture of psychological safety and merit-based reward systems? If not, trying new things can scare people away or make them feel insecure.  
+Is there a culture of psychological safety and merit-based reward systems? If not, trying new things can scare people away or make them feel insecure. 
 
 **Risk:**
-Whats the risk of picking "the wrong language"? Is it, a total failure for a product, or a slight delay? How quickly might that realization be made? 
+Whats the risk of picking "the wrong language"? Is it, a total failure for a product, or a slight delay? How quickly might that realization be made? Are you just trying to learn something new?
 
 ## Define the problem statement
 
@@ -30,25 +30,28 @@ Whats the risk of picking "the wrong language"? Is it, a total failure for a pro
 Desktop/Embedded/Cloud/On Premises/etc. What do the users need? What do they want? Make a survey, do some research, put yourself in their shoes, and talk to marketing. 
 
 **Identify Sources of Novelty:**
-Is your killer feature a huge distributed computing web framework behind a super clean easy to use front end? Might need to look at languages supporting stable parallelism, and their ecosystems. Maybe you need stability, your competitor's offerings are very glitchy, look into languages with good memory safety. Maybe you need a highly interactive GUI - what GUI API's are accessible to the languages you're interested in? Maybe you just need to hoist some fancy new algorithm to the cloud behind an API, does your language have established reliable tools that make this possible?
+Is your killer feature a huge distributed computing web framework behind a super clean easy to use front end? Might need to look at languages supporting stable parallelism, and their ecosystems. Maybe you need stability, your competitor's offerings are very glitchy, look into languages with good memory safety. Maybe you need a highly interactive GUI - what GUI API's are accessible to the languages you're interested in? Maybe you just need to hoist some fancy new algorithm to the cloud behind an API, does your language have established reliable tools that make this possible (do you need an expert, or another engineer)?
 
 **Identify Technical Need:**
 Items to keep in mind: performance, mathematics, networking, parallelism, beauty, maintainability(short-term/long-term), support, etc.
 
 ## Estimate Cost and Benefits
-Draw up a rough budget for closed source languages (matlab, etc), for training/recruiting staff, licenses are needed to use 3rd party tools, etc. Consider a team of 10 developers each needing a 5,000USD$ license, how does this compare to losing two extra weeks due to training an alternative approach? If you are using on premises hard-ware remember, there is a cost of ownership. Here are some rules of the road:
+Draw up a rough budget for closed source languages (matlab, etc), for training/recruiting staff, licenses needed to use 3rd party tools, etc. Consider a team of 10 developers each needing a 5,000USD$ annual license, how does this compare to losing two extra weeks due to training an alternative approach? If you are using on premises hard-ware remember, there is a cost of ownership. Here are some rules of the road:
 
 * Programs consume memory and clock cycles
 * Electricity costs money programming languages are not made equal 
 * Programs, dependencies, data, and related files all consume disk space.
 * Hardware has a life expectancy, and redundancies are necessary.
+* Project for growth/success. Better to face worst case upfront and have something left over.
+
+Do these even matter for your project? Usually not for me :). 
 
 *Useful study:*
 <https://stefanos1316.github.io/my_curriculum_vitae/GKS17.pdf>. 
 
 # What Options are Available in 2020?
 
-There are currently hundreds of programming languages in existence. Thankfully many of languages can be rejected for any project that isn't for funsies. For example, no one will ever use [Hexagony](<https://esolangs.org/wiki/Hexagony>) in production. The human race is thankful for that. But - even after widdling down the choices there's still probably 50ish languages that are reasonable for modern needs. Below are some categorized lists of languages to help ease someone elses search. Every year I scout programming languages to see what advances have been made, and if I should make a change/upgrade. Not all languages are included here, just major contenders that I'm aware of. The line of thinking presented here, does extend to other languages though. After this section I offer my preferences and why I like them.
+There are currently hundreds of programming languages in existence. Thankfully many languages can be rejected for any project that isn't just for funsies. For example, no one will ever use [Hexagony](<https://esolangs.org/wiki/Hexagony>) in production. The human race is thankful for that. But - even after widdling down the choices there's still probably 50ish languages that are reasonable for modern needs. Below are some categorized lists of languages to help ease someone elses search. Not all languages are included here, just major contenders that I'm aware of. The line of thinking presented here, does extend to other languages though. After this section I offer my preferences and why I like them.
 
 **Please note, in some tables you will see a "Difficulty" score. This is subjective but included to give the reader a "feel" for my experience using a variety of languages. The score is based on my perception of my ability to learn enough syntax and DevOps to create deployable projects. A score of 1 means it's easy, 3 means it's about as had as it gets, and a `?` score means I've never used the language**
 
@@ -119,9 +122,9 @@ There are currently hundreds of programming languages in existence. Thankfully m
 ## My Suggestions 
 
 ### Data
-For my needs I find Julia typically fits the bill. That said - every project is different. Sometimes I run to R for vetted statistical methods. But, I mostly find myself creating new algorithms. So I use Julia for fast prototyping, performance tuning, and turning prototypes into fast deliverables. Also - the community is awesome! 
+For my needs I find Julia typically fits the bill. That said - every project is different. Sometimes I run to R for vetted statistical methods. But, I mostly find myself creating new algorithms. So I use Julia for fast prototyping, performance tuning, and quickly turning prototypes into fast deliverables. Keyword - fast. Also - the community is awesome! 
 
-Python is nice, but it has some deficits for what I do. Your mileage will likely vary here; I'm in a weird position. Python has great tools for routinely churning data, building pipelines, and deploying tools. It also has a massive user base for better and for worse. One benefit to these kinds of languages(Julia, Python, and R), is that they tend to have good interoperability with a suite of external tools to build productive stacks. Some stacks are easier to link than others.
+Python is nice, but it has some deficits for what I do. Your mileage will likely vary here; I'm in a weird position. Python has great tools for routinely horking data, building pipelines, and deploying tools. It also has a massive user base for better and for worse. One benefit to these kinds of languages(Julia, Python, and R), is that they tend to have good interoperability with a suite of external tools to build productive stacks. Some stacks are easier to link than others, but you'll often find you can leverage tools across languages if you are careful and creative.
 
 | Primary Need | Secondary Need | Tertiary Need | Platform                    | Okay With  | Language |  
 |     :-:      | :-:            | :-:           | :-:                         | :-:        | :-:      |
@@ -151,7 +154,6 @@ Don't even ask about the scariest code I've ever seen, all I can say is - it was
 |     :-:      | :-:            | :-:           | :-:                         | :-:         | :-:      |
 | JVM      | Maturity           | Libraries     | Mac, Win, Linux, Web        | GC          | Java     |
 | JVM | Functional Programming  | Parallelism   | Mac, Win, Linux, Web        | Complexity  | Scala    |
-
 
 # Wrapping up
 Pick a language based on your need. My suggestions likely won't suite your needs. If you pick languages, or any tool, based on blog posts, or social media hype, you're probably going to get burned or end up spreading misinformation. Discern your needs first, account for resources available, then weigh the pro's and con's. It involves research, and trying things out - what works for you? 
