@@ -36,11 +36,11 @@ Is your killer feature a huge distributed computing web framework behind a super
 Items to keep in mind: performance, mathematics, networking, parallelism, beauty, maintainability(short-term/long-term), support, etc.
 
 ## Estimate Cost and Benefits
-Draw up a rough budget for closed source languages (matlab, etc), for training/recruiting staff, licenses are needed to use 3rd party tools, etc. Consider a team of 10 developers needing 10 5,000USD$ licenses, how does this compare to losing two extra weeks due to training an alternative approach? If you are using on premises hard-ware remember, there is a cost of ownership. Here are some rules of the road:
+Draw up a rough budget for closed source languages (matlab, etc), for training/recruiting staff, licenses are needed to use 3rd party tools, etc. Consider a team of 10 developers each needing a 5,000USD$ license, how does this compare to losing two extra weeks due to training an alternative approach? If you are using on premises hard-ware remember, there is a cost of ownership. Here are some rules of the road:
 
-* Programs consume memory and CPU/GPU cycles
-* Electricity costs money: all programming languages are not made equal 
-* Programs, dependencies, data, and related files, consume disk space.
+* Programs consume memory and clock cycles
+* Electricity costs money programming languages are not made equal 
+* Programs, dependencies, data, and related files all consume disk space.
 * Hardware has a life expectancy, and redundancies are necessary.
 
 *Useful study:*
@@ -48,7 +48,7 @@ Draw up a rough budget for closed source languages (matlab, etc), for training/r
 
 # What Options are Available in 2020?
 
-There are currently hundreds of programming languages in existence. Thankfully many of languages can be rejected for any project that isn't for funsies. For example, no one will ever use [Hexagony](<https://esolangs.org/wiki/Hexagony>) in production. The human race is thankful for that. But - even after widdling down the choices there's still probably 50ish language that are feasible for modern needs. Below are some categorized lists of languages to help ease someone elses search. Every year I scout programming languages to see what advances have been made, and if I should make a change. Not all languages are included here, just major contenders that I'm aware of. The line of thinking presented here, does extend to other languages though. After this section I offer my preferences and why I like them.
+There are currently hundreds of programming languages in existence. Thankfully many of languages can be rejected for any project that isn't for funsies. For example, no one will ever use [Hexagony](<https://esolangs.org/wiki/Hexagony>) in production. The human race is thankful for that. But - even after widdling down the choices there's still probably 50ish languages that are reasonable for modern needs. Below are some categorized lists of languages to help ease someone elses search. Every year I scout programming languages to see what advances have been made, and if I should make a change/upgrade. Not all languages are included here, just major contenders that I'm aware of. The line of thinking presented here, does extend to other languages though. After this section I offer my preferences and why I like them.
 
 **Please note, in some tables you will see a "Difficulty" score. This is subjective but included to give the reader a "feel" for my experience using a variety of languages. The score is based on my perception of my ability to learn enough syntax and DevOps to create deployable projects. A score of 1 means it's easy, 3 means it's about as had as it gets, and a `?` score means I've never used the language**
 
