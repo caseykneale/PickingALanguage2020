@@ -36,7 +36,7 @@ Is your killer feature a huge distributed computing web framework behind a super
 Items to keep in mind: performance, mathematics, networking, parallelism, beauty, maintainability(short-term/long-term), support, etc.
 
 ## Estimate Cost and Benefits
-Draw up a rough budget for closed source languages (matlab, etc), for training/recruiting staff, licenses needed to use 3rd party tools, etc. Consider a team of 10 developers each needing a 5,000USD$ annual license, how does this compare to losing two extra weeks due to training an alternative approach? If you are using on premises hard-ware remember, there is a cost of ownership. Here are some rules of the road:
+Draw up a rough budget for closed source languages (matlab, etc), for training/recruiting staff, licenses needed to use 3rd party tools, etc. Consider a team of 10 developers each needing a 5,000USD$ annual license, how does this compare to losing two extra weeks due to training them with an alternative approach? If you are using on premises hard-ware remember, there is a cost of ownership. Here are some rules of the road:
 
 * Programs consume memory and clock cycles
 * Electricity costs money programming languages are not made equal 
