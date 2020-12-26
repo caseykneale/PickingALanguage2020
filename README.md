@@ -8,7 +8,7 @@ Every year I scout programming languages to see what advances have been made, an
 
 # High-level Decision Process
 
-This section serves to detail some items to keep in mind as you drill down the cyclic process of settling on a programming language for a project.
+This section serves to detail some items to keep in mind as you drill down the cyclic process of settling on a programming language for a project. If you just interested in learning something new you can skip most of this section. 
 
 ## Assess Resources
 
@@ -22,7 +22,7 @@ Is there an incentive to offer a **change** to be put in place? Is continuous le
 Is there a culture of psychological safety and merit-based reward systems? If not, trying new things can scare people away or make them feel insecure. 
 
 **Risk:**
-Whats the risk of picking "the wrong language"? Is it, a total failure for a product, or a slight delay? How quickly might that realization be made? Are you just trying to learn something new?
+Whats the risk of picking "the wrong language"? Is it a total failure for a product, or a few weeks delay in a milestone? How quickly might that realization be made?
 
 ## Define the problem statement
 
