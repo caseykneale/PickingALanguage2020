@@ -146,7 +146,9 @@ I've been all over the place with the languages in this section. I haven't reall
 | Desktop      | Stability      | GUI           | Win(best), Mac, Linux       | GC          | C#       |
 
 ### JVM
-I had a falling out with JVM based languages. Java used to be my primary language. Once I became exposed to other languages and crossplatform support became a language requirement - it offered me less and less. There are some good things about Java, it's relatively easy to get a group of people to write idiomatic Java and have good coherence across projects. Back in the day, it was pretty fast (relatively speaking), but that's just not the case anymore. Scala is neat, some great tools are written in it. The second scariest code I've ever seen was written in Scala. That takes the cake for me - Scala is a little too "liberating", and as such, you can end up with scary syntax between teammates, projects, companies, etc. 
+I had a falling out with JVM based languages. Java used to be my primary language. Once I became exposed to other languages and crossplatform support became a language requirement - JVM offered me less and less. There are some good things about Java, it's relatively easy to get a group of people to write idiomatic Java and have good coherence across projects. Back in the day, it was pretty fast (relatively speaking), but that's just not the case anymore. 
+
+Scala is neat, some great tools are written in it. The second scariest code I've ever seen was written in Scala. That takes the cake for me - Scala is a little too "liberating", and as such, you can end up with scary syntax between teammates, projects, companies, etc. 
 
 Don't even ask about the scariest code I've ever seen, all I can say is - it wasn't my own. 
 
