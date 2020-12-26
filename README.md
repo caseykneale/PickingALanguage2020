@@ -155,6 +155,6 @@ Don't even ask about the scariest code I've ever seen, all I can say is - it was
 
 
 # Wrapping up
-Pick a language based on your need. If you pick languages, or any tool, based on blog posts, or social media hype, you're probably going to get burned. Need first, account for resources available, then weigh the pro's and con's. Technological idealism does not exist in industry nor academia. If it did - there would be a single programming language - right? My primary choices are based on "easy" to write stable and performant programs in. My secondaries are based on "do I have time to do this myself?". 
+Pick a language based on your need. My suggestions likely won't suite your needs. If you pick languages, or any tool, based on blog posts, or social media hype, you're probably going to get burned. Discern your needs first, account for resources available, then weigh the pro's and con's. Technological idealism does not exist in industry nor academia. If it did - there would be a single programming language - right? My primary choices are based on "easy" to write stable and performant programs in. My secondary languages are based on "do I have time to do this myself?". 
 
 Word of warning. I encourage everyone to know enough about their field and the tools they use so they do not fall victim to choosing technology based on inability to do the work without them. Be curious. Engage in open source to learn as much as you can. Make cool things. If that doesn't work out, have has much fun as you can along the way! 
