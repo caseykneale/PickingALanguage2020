@@ -2,11 +2,11 @@
 
 I'm an unabashed data geek working in industry who specializes in *dealing with* chemical data. I wear hats that span the set from analytical chemist, data scientist, and software developer. With a little bit of everything in between. Over the years I've written hundreds of thousands of lines of code. Some of it quite good, some of it so bad that I hope there are no traces of it on the internet. I do this both as a hobby and as a means of putting food on the table.
 
-I have worked alongside high-flying data scientists - you know the geniuses who can scrap together a new algorithm using mathematics that wasn't known to exist and raise them to production on time. I have also worked alongside low-level systems programmers - the type of people who giggle when their code pushes servers to literally smoke and catch fire (true story). For some developers/scientists, like myself, the line between these two groups gets a bit blurry. I figured I'd offer a mediated opinion on programming language scouting. 
+I have worked alongside high-flying data scientists - you know the geniuses who can scrap together a new algorithm using mathematics that wasn't known to exist and raise them to production on time. I have also worked alongside low-level systems programmers - the type of people who giggle when their code pushes servers to literally smoke and catch fire (true story). For some developers/scientists, like myself, the line between these two groups gets a bit blurry. I figured I'd offer a mediated opinion on scouting programming languages. 
 
-I often see there is a significant disparity in tooling that can cause schisms in teams, and therefore deliverables/products. I also tend to see a lot of hype pouring from influencer types that really muddies the waters for people looking for straightforward answers. Thankfully beneath the curtain of advertising and self-promotion, the water really isn't all that murky.
+I wrote this post because I often see or hear about schisms in teams formed from disparities in tooling. Those kinds of divergences can cause fractures in deliverables/products and make pain points in large code bases. I also tend to see a lot of hype pouring from influencer types that really muddies the waters for people looking for straightforward suggestions. Thankfully beneath the curtain of advertising and self-promotion, the water really isn't all that murky. Choosing tools is based on technological merit, but also social/business needs. 
 
-# High-level Starting Point
+# High-level Decision Process
 
 This section serves to detail some items to keep in mind as you drill down the cyclic process of settling on a programming language for a project.
 
@@ -19,7 +19,7 @@ How savvy is the team with computer science/development? Can they learn a new la
 Is there an incentive to offer a **change** to be put in place? Is continuous learning a cultural norm? Are there selling points to make a change a "net positive" for the people involved in the project?
 
 **Safety:** 
-Is there a culture of psychological safety and merit-based reward systems? If not, trying new things can scare people away. 
+Is there a culture of psychological safety and merit-based reward systems? If not, trying new things can scare people away or make them feel insecure.  
 
 **Risk:**
 Whats the risk of picking "the wrong language"? Is it, a total failure for a product, or a slight delay? How quickly might that realization be made? 
@@ -27,16 +27,16 @@ Whats the risk of picking "the wrong language"? Is it, a total failure for a pro
 ## Define the problem statement
 
 **Pick Target Platform(s):** 
-Desktop/Embedded/Cloud/On Premises/etc. What do the users need, make a survey/do some research, talk to marketing? 
+Desktop/Embedded/Cloud/On Premises/etc. What do the users need? What do they want? Make a survey, do some research, put yourself in their shoes, and talk to marketing. 
 
 **Identify Sources of Novelty:**
-Is your killer feature a huge distributed computing web framework behind a super clean easy to use front end? Might need to look at languages supporting stable parallelism, and their ecosystems. Maybe you need stability, your competitor's offerings are very glitchy, look into memory safety. Maybe you need a highly interactive GUI - what GUI API's are accessible to the languages you're interested in?
+Is your killer feature a huge distributed computing web framework behind a super clean easy to use front end? Might need to look at languages supporting stable parallelism, and their ecosystems. Maybe you need stability, your competitor's offerings are very glitchy, look into languages with good memory safety. Maybe you need a highly interactive GUI - what GUI API's are accessible to the languages you're interested in? Maybe you just need to hoist some fancy new algorithm to the cloud behind an API, does your language have established reliable tools that make this possible?
 
 **Identify Technical Need:**
-Items to keep in mind: performance, mathematics, networking, parallelism, beauty, maintainability(short-term/long-term).
+Items to keep in mind: performance, mathematics, networking, parallelism, beauty, maintainability(short-term/long-term), support, etc.
 
 ## Estimate Cost and Benefits
-Budget for closed source languages (matlab, etc), for training new staff, licenses are needed to use 3rd party tools, etc. If you are using on premises hard-ware remember, there is a cost of ownership. Here are some rules of the road:
+Draw up a rough budget for closed source languages (matlab, etc), for training new staff, licenses are needed to use 3rd party tools, etc. Consider a team of 10 developers needing 10 5,000USD$ licenses, how does this compare to losing two extra weeks due to training an alternative approach? If you are using on premises hard-ware remember, there is a cost of ownership. Here are some rules of the road:
 
 * Programs consume memory and CPU/GPU cycles
 * Electricity costs money: all programming languages are not made equal 
@@ -48,10 +48,9 @@ Budget for closed source languages (matlab, etc), for training new staff, licens
 
 # What Options are Available in 2020?
 
-There are currently hundreds of programming languages in existence. Thankfully many of them can be rejected for any project that isn't for funsies without effort. For example, no one will ever use [Hexagony](<https://esolangs.org/wiki/Hexagony>) in production. The human race is thankful for that. But - even after widdling down the choices there's still probably 50 or so that are feasible for most modern needs. Below are some categorized lists of languages to help ease someones search. Again not all languages are included, just major contenders that I'm aware of. After this section I offer my preferences and why.
+There are currently hundreds of programming languages in existence. Thankfully many of them can be rejected for any project that isn't for funsies. For example, no one will ever use [Hexagony](<https://esolangs.org/wiki/Hexagony>) in production. The human race is thankful for that. But - even after widdling down the choices there's still probably 50ish language that are feasible for modern needs. Below are some categorized lists of languages to help ease someone elses search. Every year I scout programming languages to see what advances have been made, and if I should make a change. Not all languages are included here, just major contenders that I'm aware of. The line of thinking presented here, does extend to other languages though. After this section I offer my preferences and why I like them.
 
 **Please note, in some tables you will see a "Difficulty" score. This is subjective but included to give the reader a "feel" for my experience using a variety of languages. The score is based on my perception of my ability to learn enough syntax and DevOps to create deployable projects. A score of 1 means it's easy, 3 means it's about as had as it gets, and a `?` score means I've never used the language**
-
 
 ## Procedural Programming Languages
 | Language | Imperitive | Object Oriented | Systems Programming|
@@ -120,9 +119,9 @@ There are currently hundreds of programming languages in existence. Thankfully m
 ## My Suggestions 
 
 ### Data
-For my needs I find Julia typically fits the bill. That said - every project is different. Sometimes I run to R for vetted statistical methods. But, I mostly find myself creating new algorithms. So I use Julia for fast prototyping, performance tuning, and fast deliverables. Also - the community is awesome! Python is nice, but it has some deficits for what I do. 
+For my needs I find Julia typically fits the bill. That said - every project is different. Sometimes I run to R for vetted statistical methods. But, I mostly find myself creating new algorithms. So I use Julia for fast prototyping, performance tuning, and turning prototypes into fast deliverables. Also - the community is awesome! 
 
-I mostly use python when asked too by my superiors. Your mileage will likely vary here; I'm in a weird position. Python has great tools for routinely churning data, building pipelines, and deploying tools. A benefit to both Julia, Python, and R, is that they can interop with a suite of external tools to build productive stacks. Some stacks are easier to link than others.
+Python is nice, but it has some deficits for what I do. I mostly use python when asked too by my superiors. Your mileage will likely vary here; I'm in a weird position. Python has great tools for routinely churning data, building pipelines, and deploying tools. A benefit to both Julia, Python, and R, is that they can interop with a suite of external tools to build productive stacks. Some stacks are easier to link than others.
 
 | Primary Need | Secondary Need | Tertiary Need | Platform                    | Okay With  | Language |  
 |     :-:      | :-:            | :-:           | :-:                         | :-:        | :-:      |
@@ -155,6 +154,8 @@ Don't even ask about the scariest code I've ever seen, all I can say is - it was
 
 
 # Wrapping up
-Pick a language based on your need. My suggestions likely won't suite your needs. If you pick languages, or any tool, based on blog posts, or social media hype, you're probably going to get burned. Discern your needs first, account for resources available, then weigh the pro's and con's. Technological idealism does not exist in industry nor academia. If it did - there would be a single programming language - right? My primary choices are based on "easy" to write stable and performant programs in. My secondary languages are based on "do I have time to do this myself?". 
+Pick a language based on your need. My suggestions likely won't suite your needs. If you pick languages, or any tool, based on blog posts, or social media hype, you're probably going to get burned or end up spreading misinformation. Discern your needs first, account for resources available, then weigh the pro's and con's. It involves research, and trying things out - what works for you? 
 
-Word of warning. I encourage everyone to know enough about their field and the tools they use so they do not fall victim to choosing technology based on inability to do the work without them. Be curious. Engage in open source to learn as much as you can. Make cool things. If that doesn't work out, have has much fun as you can along the way! 
+Technological idealism does not exist in industry nor academia. If it did - there would be a single programming language - right? Not hundreds. My primary choices are based on "easy" to write stable and performant programs in. My secondary languages are based on "do I have time to do this myself?". Mostly because I commonly find myself in two positions: innovating, and quickly iterating.
+
+Word of warning - especially my fellow data people. I encourage everyone to know enough about their field and the tools they use so they do not fall victim to choosing technology based on inability to do the work without them. Be curious, look under the hood, try to build one yourself, engage in open source to learn as much as you can. Make cool things. If that doesn't work out, have has much fun as you can along the way! 
