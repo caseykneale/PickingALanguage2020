@@ -85,7 +85,7 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | -           | :-: | :-: | :-: | :-: | :-: |
 | [Java](https://docs.oracle.com/en/java/)       |   | X | X | High | 2 |
 | [Scala](https://docs.scala-lang.org/)       | X | X | X | Moderate | 3 |
-| [Clojure](https://clojuredocs.org/)     | X | X | X | ? | Moderate |
+| [Clojure](https://clojuredocs.org/)     | X | X | X | Moderate  | ?|
 | [Groovy](https://groovy-lang.org/documentation.html)      | X | X | X | ? |? |
 | [Jython](https://www.jython.org/)      | X | X | X | Niche | ? |
 | [Kotlin](https://kotlinlang.org/docs/reference/)      | X | X | X | ? | ? |
