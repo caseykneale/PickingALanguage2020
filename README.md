@@ -95,11 +95,11 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | -                  | :-: | :-: | :-: |
 | [Julia](https://julialang.org/) | X |   | 1 |
 | [Scala](https://docs.scala-lang.org/)              | X | X | 3 |
-| [Haskell](https://www.haskell.org/documentation/)            | X |   | ? |
+| [Haskell](https://www.haskell.org/documentation/)            | X |   | 3 |
 | [Clean](https://clean.cs.ru.nl/Clean)              | X |   | ? |
-| [F#](https://fsharp.org/about/)                 | X | X | ? |
+| [F#](https://fsharp.org/about/)                 | X | X | 2 |
 | [Erlang](https://www.erlang.org/docs)             | X | X | ? |
-| [OCaml](https://ocaml.org/docs/)           | X | X | ? |
+| [OCaml](https://ocaml.org/docs/)           | X | X | 2 |
 | [CLisp](https://lisp-lang.org/)      | X | X | ? |
 
 ## Data Science Languages
@@ -135,7 +135,7 @@ Python is nice, but it has some deficits for what I do. Your mileage will likely
 | Spark | Custom Data Plumbing  | Parallelism  |  Mac, Win, Linux, Web        | Complexity  | Scala    |
 
 ### Applications/Systems Programming
-I've been all over the place with the languages in this section. I haven't really learned Rust, well I tried for a few days. Had to gave up for the time being. I am preferential to Go for now. Go is safe enough, fast enough, and easy enough for me to quickly create working binaries. For other projects I've ran to C++. For a few years of my life I spent a lot of time using C# for game development. All of these languages have their pros and cons. For what I do these days Go-lang sits in a serious sweet spot.
+I've been all over the place with the languages in this section. I haven't really learned Rust, well I tried for a few days. Had to gave up for the time being. I am preferential to Go for now. Go is safe enough, fast enough, and easy enough for me to quickly create working binaries. Is Go a "great" language? No. But it seems to fit the bill for simplistic code without the cognitive overhead of more pure systems language. For other projects I've ran to C++. For a few years of my life I spent a lot of time using C# for game development. All of these languages have their pros and cons. For what I do these days Go-lang sits in a serious sweet spot, but it may be usurped for F#(TBD).
 
 | Primary Need | Secondary Need | Tertiary Need | Platform                    | Okay With   | Language |  
 |     :-:      | :-:            | :-:           | :-:                         | :-:         | :-:      |
