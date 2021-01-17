@@ -165,7 +165,9 @@ Don't even ask about the scariest code I've ever seen, all I can say is - it was
 Below are some languages I reccommend trying out if you are looking to learn something new, and have some fun while you're at it. They will open your eyes to whats out there. Some brief comments on them are given below. 
 
 *Julia* - looks, feels, and runs like the future of applied mathematics and data science. It's also downright satisfying to write.
+
 *Haskell* - total paradigm shift from imperitive programming, as challenging as you want it to be. There's something beautiful to be found in Haskell, but - it's not a language you're likely to get paid to use unless you are really good at it.
+
 *Rust* - It's a treat, I mean, it's satisfying to write C++ like code without being kept up at night thinking about pointers before pushing to production. It also has some - good ideas in it, some truly fresh takes, and helpful error messages. Definitely worth learning and kind of healing compared to the C languages.
 
 | Primary Desire | Secondary Desire | Tertiary Desire | Platform                    | Okay With   | Language |  
