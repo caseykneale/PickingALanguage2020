@@ -74,7 +74,7 @@ There are currently hundreds of programming languages in existence. Thankfully m
 | -       | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | [C](https://devdocs.io/c/)       | X |   | X |   |   | X | Moderate | 3 |
 | [C++](https://www.cplusplus.com/doc/)     | X |   | X |   | X | X | High | 3 |
-| [Rust](https://www.rust-lang.org/learn)    | X | X | X | X | X | X | Low | 3 |
+| [Rust](https://www.rust-lang.org/learn)    | X | X | X | X | X | X | Low | 2 |
 | [Go](https://golang.org/doc/)      | X | X | X | X | X | X | Moderate | 1 |
 | [Nim](https://nim-lang.org/documentation.html)     | X | X | X | X | X | X | Low | 2 |
 | [Swift](https://swift.org/documentation/)   | X | X | X | X | X | X | Moderate | ? |
@@ -135,7 +135,11 @@ Python is nice, but it has some deficits for what I do. Your mileage will likely
 | Spark | Custom Data Plumbing  | Parallelism  |  Mac, Win, Linux, Web        | Complexity  | Scala    |
 
 ### Applications/Systems Programming
-I've been all over the place with the languages in this section. I haven't really learned Rust, well I tried for a few days. Had to gave up for the time being. I am preferential to Go for now. Go is safe enough, fast enough, and easy enough for me to quickly create working binaries. Is Go a "great" language? No. But it seems to fit the bill for simplistic code without the cognitive overhead of more pure systems language. For other projects I've ran to C++. For a few years of my life I spent a lot of time using C# for game development. All of these languages have their pros and cons. For what I do these days Go-lang sits in a serious sweet spot, but it may be usurped for F#(TBD).
+I've been all over the place with the languages in this section. To be honest, I'm sort of on the fence with *most* of these languages. Historically I've ran to C++ when I need this kind of tool - gold standard I guess. For a few years of my life I spent a lot of time using C# for game development, was fun, but the codebases got ugly fast. Lately I've been looking to upgrade my toolchest so I tried some more modern languages.
+
+Some part of me really enjoys Go: I found it safe enough, fast enough, and easy enough for me to quickly create working binaries. Like in a week I was able to write a super basic, but fast, low level GUI library. Is Go a "great" language? No - not really, it's actually kind of *bad*. In the ways that it's bad are a little zen, but also can be frusterating. Like no generic types? No enumerations? But in the same breath - simplistic code without the cognitive overhead is extremely rare for a systems type language. 
+
+Most recently I've ventured into using Rust. It's a seriously alluring language that removes a lot of the ills from C++. It's also pretty easy to write - if you have a background for it. If systems programming isn't in your blood I really reccommend spending at least 2 weeks in C++ and 2 weeks in Haskell before trying Rust. It's surprising how well learning basic Haskell can prime you for Rust considering the languages are not even close to similar in intent. If I were to suggest a language to learn out of all of these, and learn really well, it'd probably be Rust. But, I'm still new to it.
 
 | Primary Need | Secondary Need | Tertiary Need | Platform                    | Okay With   | Language |  
 |     :-:      | :-:            | :-:           | :-:                         | :-:         | :-:      |
@@ -156,6 +160,19 @@ Don't even ask about the scariest code I've ever seen, all I can say is - it was
 |     :-:      | :-:            | :-:           | :-:                         | :-:         | :-:      |
 | JVM      | Maturity           | Libraries     | Mac, Win, Linux, Web        | GC          | Java     |
 | JVM | Functional Programming  | Parallelism   | Mac, Win, Linux, Web        | Complexity  | Scala    |
+
+### Fun
+If you are just looking to learn something new, and have some fun while you're at it below are some languages I reccommend trying out. They will open your eyes to what lives outside of C#, and challenge most people. Some brief comments on them. 
+
+Julia - looks, feels, and runs like the future of applied mathematics and data science. It's also downright satisfying to write.
+Haskell - total paradigm shift from imperitive programming, as challenging as you want it to be. There's something beautiful to be found in Haskell, but - it's not a language you're likely to get paid to use unless you are really good at it.
+Rust - It's a treat, I mean, it's satisfying to write C++ like code without being kept up at night thinking about pointers before pushing to production. It also has some - good ideas in it, some truly fresh takes. Worth learning.
+
+| Primary Desire | Secondary Desire | Tertiary Desire | Platform                    | Okay With   | Language |  
+|     :-:      | :-:            | :-:           | :-:                         | :-:         | :-:      |
+| Expressive well-reasoned syntax | Lispyness done right! | Great community | Mac, Win, Linux, Web        | JIT  | Julia    |
+| Pure Functional Programming   | Category Theory | Recursion without penalty | Mac, Win, Linux, Web        | Mathematical Reasoning | Haskell     |
+| Modern Forward Thinking | Imperitive FP/OOP  | Parallelism   | Mac, Win, Linux, Web        | Picky Compiler  | Rust    |
 
 # Wrapping up
 Pick a language based on your need. My suggestions likely won't suite your needs. If you pick languages, or any tool, based on blog posts, or social media hype, you're probably going to get burned or end up spreading misinformation. Discern your needs first, account for resources available, then weigh the pro's and con's. It involves research, and trying things out - what works for you? 
