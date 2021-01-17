@@ -162,17 +162,17 @@ Don't even ask about the scariest code I've ever seen, all I can say is - it was
 | JVM | Functional Programming  | Parallelism   | Mac, Win, Linux, Web        | Complexity  | Scala    |
 
 ### Fun
-If you are just looking to learn something new, and have some fun while you're at it below are some languages I reccommend trying out. They will open your eyes to what lives outside of C#, and challenge most people. Some brief comments on them. 
+Below are some languages I reccommend trying out if you are looking to learn something new, and have some fun while you're at it. They will open your eyes to what lives outside of C#, and challenge most people. Some brief comments on them are given below. 
 
 Julia - looks, feels, and runs like the future of applied mathematics and data science. It's also downright satisfying to write.
 Haskell - total paradigm shift from imperitive programming, as challenging as you want it to be. There's something beautiful to be found in Haskell, but - it's not a language you're likely to get paid to use unless you are really good at it.
-Rust - It's a treat, I mean, it's satisfying to write C++ like code without being kept up at night thinking about pointers before pushing to production. It also has some - good ideas in it, some truly fresh takes. Worth learning.
+Rust - It's a treat, I mean, it's satisfying to write C++ like code without being kept up at night thinking about pointers before pushing to production. It also has some - good ideas in it, some truly fresh takes, and helpful error messages. Definitely worth learning and kind of healing compared to the C languages.
 
 | Primary Desire | Secondary Desire | Tertiary Desire | Platform                    | Okay With   | Language |  
 |     :-:      | :-:            | :-:           | :-:                         | :-:         | :-:      |
 | Expressive well-reasoned syntax | Lispyness done right! | Great community | Mac, Win, Linux, Web        | JIT  | Julia    |
 | Pure Functional Programming   | Category Theory | Recursion without penalty | Mac, Win, Linux, Web        | Mathematical Reasoning | Haskell     |
-| Modern Forward Thinking | Imperitive FP/OOP  | Parallelism   | Mac, Win, Linux, Web        | Picky Compiler  | Rust    |
+| Modern Forward Thinking | Imperitive FP/OOP  | Great community   | Mac, Win, Linux, Web        | Picky Compiler  | Rust    |
 
 # Wrapping up
 Pick a language based on your need. My suggestions likely won't suite your needs. If you pick languages, or any tool, based on blog posts, or social media hype, you're probably going to get burned or end up spreading misinformation. Discern your needs first, account for resources available, then weigh the pro's and con's. It involves research, and trying things out - what works for you? 
