@@ -139,7 +139,7 @@ I've been all over the place with the languages in this section. To be honest, I
 
 Some part of me really enjoys Go: I found it safe enough, fast enough, and easy enough for me to quickly create working binaries. Like in a week I was able to write a super basic, but fast, low level GUI library. Is Go a "great" language? No - not really, it's actually kind of *bad*. In the ways that it's bad are a little zen, but also can be frusterating. Like no generic types? No enumerations? But in the same breath - simplistic code without the cognitive overhead is extremely rare for a systems type language. 
 
-Most recently I've ventured into using Rust. It's a seriously alluring language that removes a lot of the ills from C++. It's also pretty easy to write - if you have a background for it. If systems programming isn't in your blood I really reccommend spending at least 2 weeks in C++ and 2 weeks in Haskell before trying Rust. It's surprising how well learning basic Haskell can prime you for Rust considering the languages are not even close to similar in intent. If I were to suggest a language to learn out of all of these, and learn really well, it'd probably be Rust. But, I'm still new to it.
+Most recently I've ventured into using Rust. It's a seriously alluring language that removes a lot of the ills from C++. It's also pretty easy to write - if you have a background for it. If systems programming isn't in your blood I really reccommend spending at least 2 weeks in C++ and 2 weeks in Haskell before trying Rust. It's surprising how well learning basic Haskell can prime you for Rust. Especially when you consider the languages are not even close to similar in intent. If I were to suggest a language to learn out of all of these, and learn really well, it'd probably be Rust. But, I'm still new to it.
 
 | Primary Need | Secondary Need | Tertiary Need | Platform                    | Okay With   | Language |  
 |     :-:      | :-:            | :-:           | :-:                         | :-:         | :-:      |
@@ -162,11 +162,11 @@ Don't even ask about the scariest code I've ever seen, all I can say is - it was
 | JVM | Functional Programming  | Parallelism   | Mac, Win, Linux, Web        | Complexity  | Scala    |
 
 ### Fun
-Below are some languages I reccommend trying out if you are looking to learn something new, and have some fun while you're at it. They will open your eyes to what lives outside of C#, and challenge most people. Some brief comments on them are given below. 
+Below are some languages I reccommend trying out if you are looking to learn something new, and have some fun while you're at it. They will open your eyes to whats out there. Some brief comments on them are given below. 
 
-Julia - looks, feels, and runs like the future of applied mathematics and data science. It's also downright satisfying to write.
-Haskell - total paradigm shift from imperitive programming, as challenging as you want it to be. There's something beautiful to be found in Haskell, but - it's not a language you're likely to get paid to use unless you are really good at it.
-Rust - It's a treat, I mean, it's satisfying to write C++ like code without being kept up at night thinking about pointers before pushing to production. It also has some - good ideas in it, some truly fresh takes, and helpful error messages. Definitely worth learning and kind of healing compared to the C languages.
+*Julia* - looks, feels, and runs like the future of applied mathematics and data science. It's also downright satisfying to write.
+*Haskell* - total paradigm shift from imperitive programming, as challenging as you want it to be. There's something beautiful to be found in Haskell, but - it's not a language you're likely to get paid to use unless you are really good at it.
+*Rust* - It's a treat, I mean, it's satisfying to write C++ like code without being kept up at night thinking about pointers before pushing to production. It also has some - good ideas in it, some truly fresh takes, and helpful error messages. Definitely worth learning and kind of healing compared to the C languages.
 
 | Primary Desire | Secondary Desire | Tertiary Desire | Platform                    | Okay With   | Language |  
 |     :-:      | :-:            | :-:           | :-:                         | :-:         | :-:      |
