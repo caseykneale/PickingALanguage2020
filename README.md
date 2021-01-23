@@ -144,7 +144,7 @@ Most recently I've ventured into using Rust. It's a seriously alluring language 
 | Primary Need | Secondary Need | Tertiary Need | Platform                    | Okay With   | Language |  
 |     :-:      | :-:            | :-:           | :-:                         | :-:         | :-:      |
 | Easy         | Speed          | Parallelism   | Mac, Win, Linux, Web, Cloud | No Generics + Static Types | Go       |
-| Safety       | Speed          | Binaries      | Mac, Win, Linux, Web, Cloud | Complexity  | Rust     |
+| Safety       | Speed          | Binaries      | Mac, Win, Linux, Web, Cloud | Complexity + No regulatory approval  | Rust     |
 | Speed        | Low Level Access | Binaries    | Mac, Win, Linux             | Unsafe Code | C      |
 | Low Level Access | Speed      | Easier than C | Mac, Win, Linux             | OOP         | C++      |
 | Desktop      | Stability      | GUI           | Win(best), Mac, Linux       | GC          | C#       |
