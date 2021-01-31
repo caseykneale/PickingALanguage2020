@@ -6,7 +6,7 @@ This post is basically some *personal* anecdotes and code of some things I hacke
 ## Rust - Tinkering
 I had heard a lot about Rust over the years but assumed it hadn't earned much of a standing when compared to C++. I set out, skim-reading the [Rustinomicon](https://doc.rust-lang.org/nomicon/), and then trying to dive right into writing some code. Thats what I did with Julia, R, Python, C#, C++, etc, so why not? 
 
-I got burned quick. I couldn't get the compiler to accept 99% of my code. I felt like I knew nothing. I was frusterated. It felt so alien to me despite all of the core concepts making complete sense - even sounding brilliant. I gave up on it after 2-3 afternoons of tinkering. **note: my opinion on this changes completely after revisitting it later, you have to keep reading to see that though**
+I got burned quick. I couldn't get the compiler to accept 99% of my code. I felt like I knew nothing. I was frusterated. It felt so alien to me despite all of the core concepts making complete sense - even sounding brilliant. I gave up on it after 2-3 afternoons of tinkering. **note: my opinion on this changes completely after revisitting it later. You have to keep reading to see that though**
 
 ## Go - DIY GUI
 Ah-hah the Google Programming language with the cute gopher mascot. Most of the chatter about Go complained that the language was "too simple". But it supported higher order functions, had structs, some notion of pointers/references - seems nice on paper to me. I figured it would be a bit like C, and worked through the [Go tour](https://tour.golang.org/welcome/1). The tour had an interactive online compiler - it felt modern, fast, and nice.
