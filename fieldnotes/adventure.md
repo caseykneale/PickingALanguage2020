@@ -1,4 +1,3 @@
-# Intro
 Every year or so I do a technical scouting excercise to assess programming languages and similar tools. I have a few "masterpiece" projects that have plagued me over the past 5-10 years. I need very good tooling to work on them by myself, in my free-time. Hacking them up in a scripting language just won't suffice, they are big dreams. So I asked around my primary communities (Julia and Functional Programming communities) "what languages are around that I should try out?". I was directed mostly to Rust, but a few other's.
 
 This post is basically some *personal* anecdotes and code of some things I hacked together while exploring a few new programming languages this year. The code mentioned in each section is hosted [here](https://github.com/caseykneale/PickingALanguage2020/tree/main/fieldnotes/learning_new_things) in it's entirety. Key snippits will be shared as I develop the narrative. The focus here isn't "look I mastered 4 languages and my code is perfect" - pretty much the opposite of that. The idea is to share my experience as someone who had only a short exposure to a variety of a few programming languages that were new to me.
@@ -40,6 +39,7 @@ Over-all, it was "easy" to learn, it is "fast" to write, the compiler was "fast"
 	mainScene.AddActive(newt)
     ...
 ```
+The full code for this is available [here](https://github.com/caseykneale/PickingALanguage2020/tree/main/fieldnotes/learning_new_things/Go). You'll have to add your own font files though - don't have time to see if I can freely distribute those...
 
 ## Change of strategy - Graph Library
 At this point I decided making a GUI library from OpenGl/SDL was maybe too laborious as a test. I'll admit I thought Go was going to be my winner after striking out with Rust so early on. I put a week or so of effort into Go off the bat. After deciding to broaden my search scope I decided to change the target task to something more simplistic. Something that tests data structures, control flow, and algorithms? I settled on a basic Graph library (no not a "plotting" library, a [graph library](https://en.wikipedia.org/wiki/Graph_theory))?
