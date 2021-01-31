@@ -76,7 +76,7 @@ Haskell is kind of *academic*. Sure, for some tasks(compilers, etc), it is a gol
 Okay so, Haskell wasn't my cup of tea. Despite having only spent 2-3 weeks with it I'll always have a fond reverence for its ambition. Right up there with LISP. To be fair I did find learning basic Haskell easier than learning basic Rust. That said... I can gaurantee difficult haskell is exponentially more difficult than difficult Rust! Anyways, with monads and a few other doo-dads under my belt, I decided something more imperitive would make life easy.
 
 ## F# - Graph API
-F# was interesting,I was using a *.NET* language on Ubuntu. Something that in 2015 I didn't think would ever happen. The support for the language via VSCode was quite good. Writing a BFS was trivial because while loops and side effects exist in F#,
+F# was interesting,I was using a *.NET* language on Ubuntu. That's something that in 2015 I didn't think would ever happen. The support for the language via VSCode was quite good. Writing a BFS was trivial because while loops and side effects exist in F#,
 ```fsharp
 let breadthFirstTraversal (g : Graph<'w>) (id : int) =
     let mutable visitted = 
@@ -96,7 +96,7 @@ let breadthFirstTraversal (g : Graph<'w>) (id : int) =
                 path <- path @ [nbID]
     path
 ```
-It was truly refreshing to that bit of imperitive code style available. Felt more like home. But then I started asking myself tougher questions... How is concurrency going to go? How much of a performance penalty am I going to pay if I try to stand up a **real** API in F#? I was really hoping to lose the Garbage Collector... Why learn something new that's slower than C++ afterall? Why did learning F# not feel like I really learned a programming language? Maybe I didn't spend enough time with it. Maybe I didn't want too?
+It was truly refreshing to have that bit of imperitive code style available. Felt more like home. But then I started asking myself tougher questions... How is concurrency going to go? How much of a performance penalty am I going to pay if I try to stand up a **real** API in F#? I was really hoping to lose the Garbage Collector... Why learn something new that's slower than C++ afterall? Why did learning F# not feel like I really learned a programming language? Maybe I didn't spend enough time with it. Maybe I didn't want too?
 
 ## Rust - Graph API
 I wound up stairing down Rust again. This time though, something was different. Now that I had bashed around with traits in Go, Monad's/Maybes,etc in Haskell and dealt with several package managers (ghci, packet, go modules, etc) Rust looked like a thing of beauty.
