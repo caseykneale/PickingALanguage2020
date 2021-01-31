@@ -51,7 +51,7 @@ Screw it. These systems programming languages are missing the Functional Program
 
 Haskell was one of the first languages that when I read the through the secondary sources for tutorials made complete sense to me. Then I'd go to read the docs and feel like I crash-landed on an alien planet. There's a chicken and egg problem in that, you will not understand the documentation until your understand the language. Start small and work your way up.
 
-If you can get past that, and learn some of the syntax from the great resources that are freely available you'll find something beautiful. I highly reccommend any books by (Stephen Diehl)[http://dev.stephendiehl.com/fun/WYAH.pdf], or (learn you a haskell)[http://learnyouahaskell.com/] for learning materials. I mean, the language is everything you'd want in a hobby, it makes you think, then it let's you hack, VSCode autocompletes the boilerplate in a way that only a very well thought out language could. Was a real treat.
+If you can get past that, and learn some of the syntax from the great resources that are freely available you'll find something beautiful. I highly reccommend any books by [Stephen Diehl](http://dev.stephendiehl.com/fun/WYAH.pdf), or [learn you a haskell](http://learnyouahaskell.com/) for learning materials. I mean, the language is everything you'd want in a hobby, it makes you think, then it let's you hack, VSCode autocompletes the boilerplate in a way that only a very well thought out language could. Was a real treat.
 
 I wrote my first Monad intentionally in Haskell writing a Depth First Search, 
 ```haskell
