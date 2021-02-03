@@ -116,6 +116,14 @@ mathematica = """
 Print["Hello World"];
 """
 
+#Yes you actually have to make a dialog box - it's horrendous
+arraybasic = """
+free
+    dialogbeg "Hello World"
+free
+end 
+"""
+
 using Statistics
 
 special_chars = only.(split(", \" ' ! @ # \$ % ^ & * ( ) - + [ ] { } ; : < > . / ? \\", " "))
@@ -127,9 +135,9 @@ count_lines(x) = filter( x -> (x == 'n'), x ) |> length
 
 
 langs = [:C,Symbol("C++"),:Go,:Rust,:FORTRAN,:Java,:Scala,:Julia,:Python,:Haskell,:JavaScript,Symbol("F#"),
-            :VB,:Excel,:QBASIC,:R,:Matlab,:Mathematica,Symbol("C#")]
+            :VB,:Excel,:QBASIC,:R,:Matlab,:Mathematica,Symbol("C#"),:ArrayBasic]
 hello_worlds = [c,cpp,go,rust,fortran,java,scala,julia,python,haskell,javascript,fs,
-            vb,excel,qbasic,r,matlab,mathematica,cs]
+            vb,excel,qbasic,r,matlab,mathematica,cs, arraybasic]
 
 specials = count_special.(hello_worlds)
 specials_p_line = specials_per_line.(hello_worlds)
