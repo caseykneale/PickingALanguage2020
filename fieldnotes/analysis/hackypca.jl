@@ -3,7 +3,7 @@ deef = CSV.File("/home/caseykneale/Desktop/langset.csv") |> DataFrame
 
 l = deef[:,1]
 langs = [:C,Symbol("C++"),:Go,:Rust,:FORTRAN,:Java,:Scala,:Julia,:Python,:Haskell,:JavaScript,Symbol("F#"),
-            :VB,:Excel,:QBASIC,:R,:Matlab,:Mathematica,Symbol("C#")]
+            :VB,:Excel,:QBASIC,:R,:Matlab,:Mathematica,Symbol("C#"),:ArrayBasic]
 data = deef[:,2:end] |> Matrix .|> Float64  
 
 cs = CenterScale(data)
