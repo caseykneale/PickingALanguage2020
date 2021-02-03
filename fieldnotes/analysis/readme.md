@@ -8,7 +8,7 @@ If you look at the [langset.csv](https://github.com/caseykneale/PickingALanguage
 20 features. Most of these are binary encoded or (true = 1, false = 0). Some however are slightly quantitative(based on exemplary Hello World programs in each language).
 
 ## Binary Features
-Has REPL
+- Has REPL : Does the language provide a REPL?
 - Is Compiled : is the language compiled or interpretted? 
 - Has GOTO : Does it have assembly like GoTo statements
 - JIT : Is it Just-In-Time compiled?
