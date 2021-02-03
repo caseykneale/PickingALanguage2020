@@ -50,5 +50,5 @@ Weird things
  - Fortran and VB are really close to one another. It feels wrong... But that's what these features say anyways...
 
 ### Caveats
- - Shouldn't really use PCA for binary variables. 
+ - Shouldn't really use PCA for binary variables, or count data. 
  - Features are not perfect, I drummed most of them up in a half hour, but had some help from Rust discord with a few!
