@@ -45,7 +45,7 @@ Some observations lending to consistancy.
  - Go is closer to C than it is to C++
  - Rust's nearest neighbors are: haskell, F#, C++, and Go. This feels right.
  - Julia being a LISP is close to haskell.
- - The worst programming languages I've ever seen are grouped well together.The worst I've ever seen is an outlier to that group - so, makes sense.
+ - The worst programming languages I've ever seen are grouped well together.The worst is on the periphery of that group - so, that makes sense...
  
 Weird things
  - Fortran and VB are really close to one another. It feels wrong... But that's what these features say anyways...
