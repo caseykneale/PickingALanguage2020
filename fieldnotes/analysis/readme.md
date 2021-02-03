@@ -4,7 +4,7 @@ what trends "naturally" fall out of language properties, and can I learn anythin
 So each year or so I'll add on more and more... Again there are obvious problems with this analysis', but I don't have a lot of time to dedicate to this in general.
 
 ## Criteria
-If you look at the (langset.csv)[https://github.com/caseykneale/PickingALanguage2020/blob/main/fieldnotes/analysis/langset.csv] file you'll see a small dataset with roughly 
+If you look at the [langset.csv](https://github.com/caseykneale/PickingALanguage2020/blob/main/fieldnotes/analysis/langset.csv) file you'll see a small dataset with roughly 
 20 features. Most of these are binary encoded or (true = 1, false = 0). Some however are slightly quantitative(based on exemplary Hello World programs in each language).
 
 ## Binary Features
@@ -45,6 +45,7 @@ Some observations lending to consistancy.
  - Go is closer to C than it is to C++
  - Rust's nearest neighbors are: haskell, F#, C++, and Go. This feels right.
  - Julia being a LISP is close to haskell.
+ - The worst programming languages I've ever seen are grouped well together.The worst I've ever seen is an outlier to that group - so, makes sense.
  
 Weird things
  - Fortran and VB are really close to one another. It feels wrong... But that's what these features say anyways...
