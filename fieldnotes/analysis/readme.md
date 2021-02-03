@@ -30,3 +30,25 @@ Has REPL
 - white space In HelloWorld : How much white space is there? (tabs and spaces)
 - Hello World LOC : How many lines of code is it
 - Hello World Chars : How many characters did it take to write an idiomatic Hello World program
+
+## Principal Component Analysis
+![pca](https://raw.githubusercontent.com/caseykneale/PickingALanguage2020/main/fieldnotes/analysis/langs.png)
+
+What I find most interesting here is 
+ - There is this sweet spot where my favorite languages have emerged. Right around Haskell, there's Julia and Rust.
+ - So languages following these kinds of paradigms are probably where I end up
+ - A lot of the enterprise languages are at the periphery of the scores plot. This is weird because it implies they are kind of "extreme" from some notion of multipurpose. One would think that languages supporting more paradigms, or mishmashing features, would be more adopted to solve broader problems. 
+ 
+Some observations lending to consistancy. 
+ - C&C++, Java&C#, Python&R&Matlab are right next to each other, etc.
+ - There's a pretty clean divide between FP and OOP languages 
+ - Go is closer to C than it is to C++
+ - Rust's nearest neighbors are: haskell, F#, C++, and Go. This feels right.
+ - Julia being a LISP is close to haskell.
+ 
+Weird things
+ - Fortran and VB are really close to one another. It feels wrong... But that's what these features say anyways...
+
+### Caveats
+ - Shouldn't really use PCA for binary variables. 
+ - Features are not perfect, I drummed most of them up in a half hour, but had some help from Rust discord with a few!
