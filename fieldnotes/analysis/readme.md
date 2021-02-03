@@ -9,24 +9,24 @@ If you look at the (langset.csv)[https://github.com/caseykneale/PickingALanguage
 
 ## Binary Features
 Has REPL
-- Is Compiled 	
-- Has GOTO 	
-- JIT 	
-- List comprehensions 	
-- Generics 	
-- GC 	
-- OOP 	
-- FP 	
-- Metaprogramming 	
-- Cross Platform 	
-- Safety 	
-- Strong 	
-- General Purpose 	
-- Package Manager
+- Is Compiled : is the language compiled or interpretted? 
+- Has GOTO : Does it have assembly like GoTo statements
+- JIT : Is it Just-In-Time compiled?
+- List comprehensions : Does it support sugar/monads for handling lists easily?
+- Generics : Can generic types be used?
+- GC : Does it have a Garbage Collector?
+- OOP : Does it support object oriented programming paradigms. Note: not "is this a pure OOP"
+- FP 	: Does it support functional programming paradigms. I think the criteria here is, is there first class support for fns.
+- Metaprogramming : Can you metaprogram in it?
+- Cross Platform 	: Can you target other OS's/platforms
+- Safety 	: Is memory safety a feature.
+- Strong 	: Is it strongly typed.
+- General Purpose : Is this language "general purpose" or a "niche". IE: Excel is a niche, so is mathematica. 
+- Package Manager : Does the language come with, or commonly support package managers?
 
 ## Quantitative Features
-- special chars In HelloWorld 	
-- avg. specials Per line In HelloWorld 	
-- white space In HelloWorld 	
-- Hello World LOC 	
-- Hello World Chars
+- special chars In HelloWorld : Number of special characters in a hello world application.
+- avg. specials Per line In HelloWorld 	: Average special characters per line.
+- white space In HelloWorld : How much white space is there? (tabs and spaces)
+- Hello World LOC : How many lines of code is it
+- Hello World Chars : How many characters did it take to write an idiomatic Hello World program
