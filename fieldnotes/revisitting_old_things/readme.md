@@ -47,7 +47,7 @@ I made the conscious choice to mostly leave python behind ~2 years ago. There ar
 - Was Python easier/faster to write? No.
 - Was Python faster? No.
 
-It felt like I had just exitted hyperspace by a swift crash landing on an island that was long inhabitted by a cargocult - the space adventure was no longer fun nor practical... I missed the broadcast operator, basic mathematical data structure support in base, the ability to easily put code in parallel (foobar times out slow code), unicode support, macros, actually thinking about making code fast rather then language specific hacks, and all the other little things you get by just typing `julia` into terminal. 
+It felt like I had just exitted hyperspace by swiftly crash landing on an island that was long inhabitted by a cargocult - the space adventure was no longer fun nor practical... I missed the broadcast operator, basic mathematical data structure support in base, the ability to easily put code in parallel (foobar times out slow code), unicode support, macros, actually thinking about making code fast rather then language specific hacks, and all the other little things you get by just typing `julia` into terminal. 
 
 
 ## Thank You Google
