@@ -51,9 +51,9 @@ It felt like I had just exitted hyperspace by swiftly crash landing on an island
 
 
 ## Thank You Google
-No seriously thank you. I love the search engine, gmail, Go-Lang, and alot of other cool things you do. Thank you for reminding me why I don't use Python (unless I have too), and of the times I saw 2.7 appear in industry and internally shrieked at a soon to be legacy codebase.
+No seriously thank you. I love the search engine, gmail, Go-Lang, and alot of other cool things you do. Thank you for reminding me why I don't use Python (unless I have to).
 
-If my ego were stronger I'd have just finished the challenge. I mean... I passed most of the unit tests for the last challenge I am on. I know the answer too - but I just can't will myself to do it to myself. 
+If my ego were stronger I'd have just finished the challenge. I mean... I passed most of the unit tests for the last challenge I am on. I know the answer too - but I just can't do it to myself. 
 ![lvl4](lvl4current.png)
 
 Maybe I don't want the bragging rights that bad? Maybe my free-time should be directed toward having fun, and strengthening my skills/weaknesses for the real world. Learning Rust lang right now is way more fun and fruitful!
