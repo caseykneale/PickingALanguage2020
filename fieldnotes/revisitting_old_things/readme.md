@@ -1,6 +1,6 @@
 ## My Experience with Google's FooBar
 
-In the midst of scouring the internet for technical scouting programming languages I recieved a really weird offer. I was switching from Haskell to Rust, and really googling some weird stuff. Google Search engine transformed, a question like "would you like to solve questions for Google?" dropped beneath my search bar.
+In the midst of scouring the internet durring a technical scouting excercise for new programming languages I recieved a really weird offer. I was switching from Haskell to Rust, and really googling some weird stuff. Google Search engine transformed, a question like "would you like to solve questions for Google?" dropped beneath my search bar.
 
 I thought it was a game, so I figured "sure, I can kill 20 minutes". I hit the "yes" button and was transported to another page.
 
