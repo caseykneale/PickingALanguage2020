@@ -21,7 +21,7 @@ So I started zinging through the challenges. Level 1 was was trivial, and I was 
 Level 2 was a little harder, but still completely trivial.
 ![lvl3](lvl2.png)
 
-Ran into a weird bug at level 2, which I was able to file via the terminal.
+Ran into a weird bug at level 2, which I was able to file via the terminal(note the bug was reproduced later for purposes of documenting).
 ![bug](Bug.png)
 Basically if you try to `clear` the terminal, sometimes it crashes. It does clear the screen though. Who knows? 
 
