@@ -41,7 +41,11 @@ This is a pretty sensible grouping of languages. Some of it is a little weird, b
 
 ## My Dream Language
 I created a pretend entry by feeding in the types of features I cared/enjoyed most. Had to eyeball some of the quantitative ones. Then projected that into the plot to see where it landed. 
+
 ![pca](https://raw.githubusercontent.com/caseykneale/PickingALanguage2020/main/fieldnotes/analysis/dream%20lang.png)
+
+## Conclusions: 
+It seems that I'd like a little more Haskell/Julia in my Rust. Or a little more Rust in my Julia/Haskell. Either would be nice... I think, foreseeably, this will some of this will happen over time. Static compilation is only Julia's roadmap. Functional niceties like list comprehension sugar, etc are becoming more common in the ecosystem of Rust. It'll be interesting to see how things shake out. The one I'm not so sure about is Haskell... It seems like when people go to work on it to make it something else it turns into a CAML (like F#), rather then something like a LISP, or a staticly compiled systems programming language. Either way it's a Haskell is nice language with it's own use cases. Looking forward to what Rust and Julia do over time!
 
 ## Criteria Used
 If you look at the [langset.csv](https://github.com/caseykneale/PickingALanguage2020/blob/main/fieldnotes/analysis/langset.csv) file you'll see a small dataset with roughly 
