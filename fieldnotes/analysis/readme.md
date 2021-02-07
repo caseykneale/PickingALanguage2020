@@ -39,7 +39,7 @@ This is a pretty sensible grouping of languages. Some of it is a little weird, b
  - The upper right hand quadrant has some terrible languages. Some of which you probably could not pay me to write code in. ArrayBasic being the absolute worst programming language I have ever seen. People complain about R, vs Python, etc, my goodness, they have no idea how bad it really gets.
 
 ## My Dream Language
-I created a pretend entry by feeding in the types of features I cared/enjoyed most. Had to eyeball some of the quantitative ones. Then projected that into the plot to see where it landed. 
+I created a pretend entry by feeding in the types of features I desire most. Had to eyeball some of the quantitative ones. Then projected that into the plot to see where it landed. 
 
 ![pca](https://raw.githubusercontent.com/caseykneale/PickingALanguage2020/main/fieldnotes/analysis/dream%20lang.png)
 
