@@ -19,7 +19,7 @@ So I started zinging through the challenges. Level 1 was trivial. After completi
 Level 2 was a little harder, but still pretty darn easy.
 ![lvl3](lvl2.png)
 
-I ran into a weird bug at level 2 while trying to clear the terminal. Basically if you try execute `clear`, sometimes the site crashes. It does effectively clear the screen though, but often times it does so with some form of error soup in an alert box. What was kind of cool was that the faux terminal had a command which allowed me to file a bug report.
+I ran into a weird bug at level 2 while trying to clear the terminal. if you try execute `clear`, sometimes the site crashes. The command does effectively clear the screen, but often times it does so with some form of error soup in an alert box. What was kind of cool was that the faux terminal had a command which allowed me to file a bug report.
 ![bug](Bug.png)
 *(note the bug was reproduced later for purposes of documenting)*
 
@@ -34,7 +34,7 @@ The math class I wrote was pretty bad. Not because I don't know how to write goo
 
 Even Google's TensorFlow knows better than to use pure python. Infact less than 20% TensorFlow is even written in python. I'd venture a guess that exactly 0% of it is python 2.7...
 
-Anyways, I spent the better part of an afternoon on one of these problems, scratching my head, debugging python 2.7 code. I felt stupid... Stupid for being stuck, and stupid for playing along. To get some confidence in the fact that I knew what I was doing, I wrote a solution to the problem in Julia. This took < 30 minutes to write, was fast on execution, and only consumed ~20 lines of code(LOC). I ended up using that to debug the ~150 LOC hand made math API in python.
+Anyways, I spent the better part of an afternoon on one of these problems, scratching my head, debugging python 2.7 code. I felt stupid... Stupid for being stuck, and stupid for playing along. To get some confidence in the fact that I knew what I was doing, I wrote a solution to the problem in [Julia](https://julialang.org/). This took < 30 minutes to write, was fast on execution, and only consumed ~20 lines of code(LOC). I ended up using that to debug the ~150 LOC hand made math API in python.
 
 Let's analyze that a little bit... To solve a FooBar recruitment problem, I wrote a fast, concise, highly readable solution to a problem. Then in order to submit it for *credit* I had to find a way to translate it to a slow, verbose, slightly confusing to read language that has been deprecated. Python 2.7 is [dead](https://www.python.org/doc/sunset-python-2/), and is a language which Google themselves doesn't prefer to use for these kinds of tasks. Think it might be time to update FooBar...
 
@@ -60,4 +60,4 @@ I love the search engine, G-mail, Go-Lang, and alot of other cool things you do.
 My motivation is pretty different here than most peoples, I already have a nice job and am not a masochist. Maybe I also don't want the bragging rights that bad? Or maybe my free-time should be directed toward having fun, and strengthening my skills/weaknesses for the real world. As it currently stands, learning Rust lang. and tinkering away with Julia is just way more fun and fruitful!
 
 ## P.S. Google...
-If you put [Dex-Lang](https://github.com/google-research/dex-lang), [Numba](https://numba.pydata.org/), and [Python](https://github.com/python/cpython) into a blender you arrive at something like Julia.
+If you put [Dex-Lang](https://github.com/google-research/dex-lang), [Numba](https://numba.pydata.org/), and [Python](https://github.com/python/cpython) into a blender, remove the GIL, add easy parallelism/distributed computing, and add >10yrs of smart design decisions made by world-class talen in their prime you will arrive at something like Julia. Highly reccomend at least trying it.
