@@ -59,4 +59,4 @@ I love the search engine, G-mail, Go-Lang, and alot of other cool things you do.
 My motivation is pretty different here than most peoples, I already have a nice job and am not a masochist. Maybe I also don't want the bragging rights that bad? Or maybe my free-time should be directed toward having fun, and strengthening my skills/weaknesses for the real world. As it currently stands, learning Rust lang. and tinkering away with Julia is just way more fun and fruitful!
 
 ## P.S. Google...
-If you put [Dex-Lang](https://github.com/google-research/dex-lang), [Numba](https://numba.pydata.org/), [Python](https://github.com/python/cpython) into a blender you arrive at something like Julia.
+If you put [Dex-Lang](https://github.com/google-research/dex-lang), [Numba](https://numba.pydata.org/), and [Python](https://github.com/python/cpython) into a blender you arrive at something like Julia.
