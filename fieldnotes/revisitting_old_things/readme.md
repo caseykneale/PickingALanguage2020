@@ -31,6 +31,7 @@ No one picks a programming language that is ill-suited for a task unless they ab
 
 The math class I wrote was pretty bad. Not because I don't know how to write good or even decent code, but python is a pretty bad language for mathematics. The only reason it has survived so long in that space is because it can glue in math code from C, C++, Fortran, etc. If this is news to you, or you're skeptical, check the repositories for commonly used math libraries in modern Python. 
 ![python](pythoniscppchangemymind.jpeg)
+
 Even Google's TensorFlow knows better than to use pure python, infact less than 20% the library is even python. I'd venture a guess that exactly 0% of it is python 2.7...
 
 Anyways, I spent the better part of an afternoon on one of these problems, scratching my head, debugging python 2.7 code. I felt stupid... Stupid for being stuck, and stupid for playing along. To get some confidence in the fact that I knew what I was doing, I wrote a solution to the problem in Julia. This took < 30 minutes to write, was fast on execution, and only consumed ~20 lines of code(LOC). I ended up using that to debug the ~150 LOC math API in python.
