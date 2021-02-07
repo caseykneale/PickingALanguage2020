@@ -36,7 +36,7 @@ Even Google's TensorFlow knows better than to use pure python, infact less than 
 
 Anyways, I spent the better part of an afternoon on one of these problems, scratching my head, debugging python 2.7 code. I felt stupid... Stupid for being stuck, and stupid for playing along. To get some confidence in the fact that I knew what I was doing, I wrote a solution to the problem in Julia. This took < 30 minutes to write, was fast on execution, and only consumed ~20 lines of code(LOC). I ended up using that to debug the ~150 LOC math API in python.
 
-Let's analyze that a little bit... To solve a FooBar recruitment problem, I wrote a fast, concise, highly readable solution to a problem. Then in order to submit it for credit I had to find a way to translate it to a slow, verbose, slightly confusing to read language. A language which Google themselves openly doesn't prefer to use for these purposes. 
+Let's analyze that a little bit... To solve a FooBar recruitment problem, I wrote a fast, concise, highly readable solution to a problem. Then in order to submit it for credit I had to find a way to translate it to a slow, verbose, slightly confusing to read language that has been deprecated. Python 2.7 is [dead](https://www.python.org/doc/sunset-python-2/), and is a language which Google themselves doesn't prefer to use for these kinds of tasks. 
 
 ![lvl4](lvl4.png)
 
