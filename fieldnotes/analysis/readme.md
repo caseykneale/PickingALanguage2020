@@ -11,7 +11,7 @@ what trends "naturally" fall out of language properties, and can I learn anythin
 ![pca](https://raw.githubusercontent.com/caseykneale/PickingALanguage2020/main/fieldnotes/analysis/langs.png)
 
 ## Knee Jerk Reaction
-This is a pretty sensible grouping of languages. Some of it is a little weird, but we did reduce 20 dimensions into 2, and who says any of this is linear.
+This is a pretty sensible grouping of languages. Some of it is a little weird, but we did reduce 20 dimensions into 2. Who says any of this is linear or 2D...
 
 ## Quickly Make Sense of It
 ![pca](https://raw.githubusercontent.com/caseykneale/PickingALanguage2020/main/fieldnotes/analysis/langpca_lbled.png)
