@@ -16,7 +16,7 @@ This is a pretty sensible grouping of languages. Some of it is a little weird, b
 ![pca](https://raw.githubusercontent.com/caseykneale/PickingALanguage2020/main/fieldnotes/analysis/langpca_lbled.png)
 
 ### Interesting Observations
- - A lot of the enterprise languages are at the periphery of the scores plot. This is weird because it implies they are kind of "extreme" from some notion of multipurpose. One would think that languages supporting more paradigms, or mishmashing features, would be more adopted to solve broader problems. 
+ - A lot of the enterprise languages are at the periphery of the scores plot. This is weird because it implies they are kind of "extreme". One would think that languages supporting more paradigms, or mishmashing features, would be more adopted to solve broader problems. 
  
 ### Some observations lending to consistancy. 
  - C&C++, Java&C#, R&Matlab are right next to each other, etc.
