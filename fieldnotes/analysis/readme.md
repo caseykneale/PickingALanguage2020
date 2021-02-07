@@ -17,6 +17,7 @@ This is a pretty sensible grouping of languages. Some of it is a little weird, b
 
 ### Interesting Observations
  - A lot of the enterprise languages are at the periphery of the scores plot. This is weird because it implies they are kind of "extreme". One would think that languages supporting more paradigms, or mishmashing features, would be more adopted to solve broader problems. 
+ - Theres a large pretty large gap between Haskell and Rust. 
  
 ### Some observations lending to consistancy. 
  - C&C++, Java&C#, R&Matlab are right next to each other, etc.
@@ -44,7 +45,8 @@ I created a pretend entry by feeding in the types of features I desire most. Had
 ![pca](https://raw.githubusercontent.com/caseykneale/PickingALanguage2020/main/fieldnotes/analysis/dream%20lang.png)
 
 ## Conclusions: 
-It seems that I'd like a little more Haskell/Julia in my Rust. Or a little more Rust in my Julia/Haskell. Either would be nice... I think, foreseeably, some of this will happen over time. Static compilation is on Julia's roadmap. Functional niceties like list comprehension sugar, etc are becoming more common in the ecosystem of Rust. It'll be interesting to see how things shake out. 
+It seems that I'd like a little more Haskell/Julia in my Rust. Or a little more Rust in my Julia/Haskell. Either would be nice... I think, foreseeably, some of this will happen over time. Static compilation is on Julia's roadmap. Functional niceties like list comprehension sugar, etc are becoming more common in the ecosystem of Rust. It'll be interesting to see how things shake out. That said - there is a noticeable gap in languages I've used and the needs/wants that I have. It's interesting it hasn't been filled yet. If it has - please let me know!
+
 The one case for improvement that I'm not so sure about is Haskell... It seems like when people go to work on it to make it something else it turns into a CAML (like F#), rather then something like a LISP or a Rust. Either way Haskell is a nice language with it's own use cases. Looking forward to what Rust and Julia do over time!
 
 ## Criteria Used
