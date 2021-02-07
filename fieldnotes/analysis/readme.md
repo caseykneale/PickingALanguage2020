@@ -5,7 +5,6 @@ what trends "naturally" fall out of language properties, and can I learn anythin
 
 # Summary
 
-
 # Results
 ## Raw Principal Component Analysis
 ![pca](https://raw.githubusercontent.com/caseykneale/PickingALanguage2020/main/fieldnotes/analysis/langs.png)
@@ -28,7 +27,7 @@ This is a pretty sensible grouping of languages. Some of it is a little weird, b
  - The worst programming languages I've ever used are grouped together surprisingly nicely...
  
 ### Oddities
- - Wouldn't it be nice if C and C++ were primarily OOP languages? Then the left handside of the plot would make more sense. In the past C++ was more strongly OOP than anything else, but overtime it has been adapted to be more paradigm. Sure object oriented C exists, but C, in and of itself is just it's own thing. 
+ - Wouldn't it be nice if C and C++ were primarily OOP languages? Then the left handside of the plot would make more sense. In the past C++ was more strongly OOP than anything else, but overtime it has been adapted to be more multiparadigm. Sure object oriented C exists, but C, in and of itself is just it's own thing. Maybe the correct way to look at this is that VB is the outlier, it's a pretty widely dreaded and awful language afterall(its ranked [4x in StackOverFlows developer survey](https://stackoverflow.blog/2017/10/31/disliked-programming-languages/) for the top 20 most complained about items)...
  - Python is smack dab in the middle of special purpose languages and FP languages despite being multiparadigm! This makes sense though... Even though Python is multiparadigm it's OOP is mostly a facade. Most of what python actually does is outright hacky. It makes sense that it's nearer to JavaScript than it is to say C++ or Java despite being a general purpose language and largely touted as one on the internet... Just funny to see it shake out this way...
 
 ## My Preferences
