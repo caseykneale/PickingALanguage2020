@@ -10,7 +10,7 @@ I was excited this sounded like fun! A cool game, with some whimsical prompts, a
 
 Then I read the prompt for code submissions... Python 2.7 or Java. Okay... Told a friend about this weird game's restrictions, "does google still use python 2.7?" I was then informed that this is a secret recruiting tool. Huh... 
 ![wut](whypy27.png)
-Look I've spent a few years of my life writing Java, and maybe a half a year of my life writing in 2.7 before moving to 3.X. I had just finished technical evaluations of some bleeding edge, and intense programming languages. Maybe writing some Python 2.7 would be cathartic? Maybe this would reignite my interests in modern python.
+Look I've spent a few years of my life writing Java, and maybe a half a year of my life writing in 2.7 before moving to 3.X. I had just finished technical evaluations of some bleeding edge, and somewhat intense programming languages. Maybe writing some Python 2.7 would be cathartic? Maybe this would reignite my interests in modern python.
 
 ## The Challenges
 So I started zinging through the challenges. Level 1 was trivial. After completion, I was greeted with dancing ASCII bunnies!
@@ -23,7 +23,7 @@ I ran into a weird bug at level 2 while trying to clear the terminal. Basically 
 ![bug](Bug.png)
 *(note the bug was reproduced later for purposes of documenting)*
 
-Anyways then came Level 3... Level 3 wasn't hard. The problems were actually pretty easy for the most part, but they took considerably more time to solve. You  might be thinking "Easy? But they took you a while? Riiiight". Time to dedicate a section explicitly to the big issue associated with this challenge...
+Anyways then came Level 3... Level 3 wasn't hard. The problems were actually pretty easy for the most part, but they took considerably more time to solve. You  might be thinking "Easy? But they took you a while? Riiiight". Well now it's time to dedicate a section of this post explicitly to the `big` issue associated with this challenge...
 ![lvl3](lvl3.png)
 
 ## The Right Tool for the Job
@@ -32,11 +32,11 @@ No one picks a programming language that is ill-suited for a task unless they ab
 The math class I wrote was pretty bad. Not because I don't know how to write good or even decent code, but python is a pretty bad language for mathematics. The only reason it has survived so long in that space is because it can glue in math code from C, C++, Fortran, etc. If this is news to you, or you're skeptical, check the repositories for commonly used math libraries in modern Python. 
 ![python](pythoniscppchangemymind.jpeg)
 
-Even Google's TensorFlow knows better than to use pure python, infact less than 20% the library is even python. I'd venture a guess that exactly 0% of it is python 2.7...
+Even Google's TensorFlow knows better than to use pure python. Infact less than 20% TensorFlow is even written in python. I'd venture a guess that exactly 0% of it is python 2.7...
 
-Anyways, I spent the better part of an afternoon on one of these problems, scratching my head, debugging python 2.7 code. I felt stupid... Stupid for being stuck, and stupid for playing along. To get some confidence in the fact that I knew what I was doing, I wrote a solution to the problem in Julia. This took < 30 minutes to write, was fast on execution, and only consumed ~20 lines of code(LOC). I ended up using that to debug the ~150 LOC math API in python.
+Anyways, I spent the better part of an afternoon on one of these problems, scratching my head, debugging python 2.7 code. I felt stupid... Stupid for being stuck, and stupid for playing along. To get some confidence in the fact that I knew what I was doing, I wrote a solution to the problem in Julia. This took < 30 minutes to write, was fast on execution, and only consumed ~20 lines of code(LOC). I ended up using that to debug the ~150 LOC hand made math API in python.
 
-Let's analyze that a little bit... To solve a FooBar recruitment problem, I wrote a fast, concise, highly readable solution to a problem. Then in order to submit it for credit I had to find a way to translate it to a slow, verbose, slightly confusing to read language that has been deprecated. Python 2.7 is [dead](https://www.python.org/doc/sunset-python-2/), and is a language which Google themselves doesn't prefer to use for these kinds of tasks. 
+Let's analyze that a little bit... To solve a FooBar recruitment problem, I wrote a fast, concise, highly readable solution to a problem. Then in order to submit it for *credit* I had to find a way to translate it to a slow, verbose, slightly confusing to read language that has been deprecated. Python 2.7 is [dead](https://www.python.org/doc/sunset-python-2/), and is a language which Google themselves doesn't prefer to use for these kinds of tasks. Think it might be time to update FooBar...
 
 ![lvl4](lvl4.png)
 
@@ -51,7 +51,7 @@ Roughly 2 years ago I made the conscious decision to leave python outside of my 
 - Was Python easier/faster to write than Julia? No.
 - Was Python faster than Julia? No.
 
-The context shift of Julia to Python 2.7 was rough. It felt like I had exitted hyperspace by swiftly crash landing on an island that was long inhabitted by a cargocult - the space adventure was no longer fun nor practical... I missed the broadcast operator, mathematical data structures supported in the base language, the ability to easily put code in parallel (foobar times out slow code), track allocations, make short descriptive variables via unicode support, avoid repetitive code by using macros, thinking about making code fast rather then language specific hacks, and all the other little things you get by just typing `julia` into terminal. 
+The context shift of Julia to Python 2.7 was rough. It felt like I had exitted hyperspace by crash landing on an island that was long inhabitted by a cargocult - the space adventure was no longer fun nor practical... I missed the broadcast operator, mathematical data structures supported in the base language, the ability to easily put code in parallel (foobar times out slow code), track allocations, make short descriptive variables via unicode support, avoid repetitive code by using macros, thinking about making code fast rather then language specific hacks, and all the other little things you get by just typing `julia` into terminal. 
 
 ## Thank You Google
 I love the search engine, G-mail, Go-Lang, and alot of other cool things you do. Thank you for reminding me why I don't use Python (unless I have to). If my ego were stronger I'd have just finished the challenge. I mean... I passed most of the unit tests for the last challenge I was on. I know the answer too - but I just can't do it to myself. 
