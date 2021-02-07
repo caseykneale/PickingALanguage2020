@@ -35,7 +35,7 @@ This is a pretty sensible grouping of languages. Some of it is a little weird, b
 
 *Languages I enjoy are in orange and languages I dislike are in black. The thicker/more consistant the line the stronger feeling I have about them.*
  - There is this sweet spot where my favorite languages have emerged. Right around Haskell, there's Julia and Rust.
- - Languages I don't enjoy are not really to the left of the languages I do enjoy. So it seems I like general purpose tools. That makes sense... I am typically a solodeveloper on a team bringing something from nothing to conception.
+ - Languages I don't enjoy are not really to the left of the languages I do enjoy. So it seems I like general purpose tools. That makes sense... I am typically a solodeveloper bringing something from nothing to conception.
  - The upper right hand quadrant has some terrible languages. Some of which you probably could not pay me to write code in. ArrayBasic being the absolute worst programming language I have ever seen. People complain about R, vs Python, etc, my goodness, they have no idea how bad it really gets.
 
 ## My Dream Language
