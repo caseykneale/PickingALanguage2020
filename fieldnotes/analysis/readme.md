@@ -24,7 +24,7 @@ This is a pretty sensible grouping of languages. Some of it is a little weird, b
  - There's a pretty clean divide of multiparadigm languages between FP and OOP languages. 
  - Go is closer to C than it is to C++
  - Rust's nearest neighbors are: haskell, F#, C++, and Go. That definitely feels right.
- - Julia being a LISP is close to haskell.
+ - Julia being a functional language is close to haskell.
  - The worst programming languages I've ever used are grouped together surprisingly nicely...
  
 ### Oddities
