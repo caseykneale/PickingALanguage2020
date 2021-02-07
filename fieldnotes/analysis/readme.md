@@ -20,7 +20,7 @@ If you look at the [langset.csv](https://github.com/caseykneale/PickingALanguage
 - List comprehensions : Does it support sugar/monads for handling lists easily?
 - Generics : Can generic types be used?
 - GC : Does it have a Garbage Collector?
-- OOP : Does it support object oriented programming paradigms. Note: not "is this a pure OOP"
+- OOP : Does it support object oriented programming paradigms. **Note:** not "is this a pure OOP"
 - FP 	: Does it support functional programming paradigms. I think the criteria here is, is there first class support for fns.
 - Metaprogramming : Can you metaprogram in it?
 - Cross Platform 	: Can you target other OS's/platforms
