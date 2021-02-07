@@ -39,7 +39,11 @@ This is a pretty sensible grouping of languages. Some of it is a little weird, b
  - Languages I don't enjoy are not really to the left of the languages I do enjoy. So it seems I like general purpose tools. That makes sense... I am typically a solodeveloper on a team bringing something from nothing to conception.
  - The upper right hand quadrant has some terrible languages. Some of which you probably could not pay me to write code in. ArrayBasic being the absolute worst programming language I have ever seen. People complain about R, vs Python, etc, my goodness, they have no idea how bad it really gets.
 
-## Criteria
+## My Dream Language
+I created a pretend entry by feeding in the types of features I cared/enjoyed most. Had to eyeball some of the quantitative ones. Then projected that into the plot to see where it landed. 
+![pca](https://raw.githubusercontent.com/caseykneale/PickingALanguage2020/main/fieldnotes/analysis/dream%20lang.png)
+
+## Criteria Used
 If you look at the [langset.csv](https://github.com/caseykneale/PickingALanguage2020/blob/main/fieldnotes/analysis/langset.csv) file you'll see a small dataset with roughly 
 20 features. Most of these are binary encoded or (true = 1, false = 0). Some however are slightly quantitative(based on exemplary Hello World programs in each language).
 
