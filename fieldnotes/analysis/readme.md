@@ -7,6 +7,32 @@ what trends "naturally" fall out of language properties, and can I learn anythin
 
 
 # Results
+## Raw Principal Component Analysis
+![pca](https://raw.githubusercontent.com/caseykneale/PickingALanguage2020/main/fieldnotes/analysis/langs.png)
+
+## Knee Jerk Reaction
+This is a pretty sensible grouping of languages. Some of it is a little weird, but we did reduce 20 dimensions into 2, and who says any of this is linear.
+
+## Quickly Make Sense of It
+![pca](https://raw.githubusercontent.com/caseykneale/PickingALanguage2020/main/fieldnotes/analysis/langslbl.png)
+
+ - There is this sweet spot where my favorite languages have emerged. Right around Haskell, there's Julia and Rust.
+ - So languages following these kinds of paradigms are probably where I end up
+ - A lot of the enterprise languages are at the periphery of the scores plot. This is weird because it implies they are kind of "extreme" from some notion of multipurpose. One would think that languages supporting more paradigms, or mishmashing features, would be more adopted to solve broader problems. 
+ 
+Some observations lending to consistancy. 
+ - C&C++, Java&C#, Python&R&Matlab are right next to each other, etc.
+ - There's a pretty clean divide between FP and OOP languages 
+ - Go is closer to C than it is to C++
+ - Rust's nearest neighbors are: haskell, F#, C++, and Go. This feels right.
+ - Julia being a LISP is close to haskell.
+ - The worst programming languages I've ever seen are grouped well together.The worst is on the periphery of that group - so, that makes sense...
+ 
+Weird things
+ - Fortran and VB are really close to one another. It feels wrong... But that's what these features say anyways...
+
+
+
 
 ## Criteria
 If you look at the [langset.csv](https://github.com/caseykneale/PickingALanguage2020/blob/main/fieldnotes/analysis/langset.csv) file you'll see a small dataset with roughly 
@@ -36,25 +62,6 @@ If you look at the [langset.csv](https://github.com/caseykneale/PickingALanguage
 - Hello World LOC : How many lines of code is it
 - Hello World Chars : How many characters did it take to write an idiomatic Hello World program
 
-## Raw Principal Component Analysis
-![pca](https://raw.githubusercontent.com/caseykneale/PickingALanguage2020/main/fieldnotes/analysis/langs.png)
-
-What I find most interesting here is 
- - There is this sweet spot where my favorite languages have emerged. Right around Haskell, there's Julia and Rust.
- - So languages following these kinds of paradigms are probably where I end up
- - A lot of the enterprise languages are at the periphery of the scores plot. This is weird because it implies they are kind of "extreme" from some notion of multipurpose. One would think that languages supporting more paradigms, or mishmashing features, would be more adopted to solve broader problems. 
- 
-Some observations lending to consistancy. 
- - C&C++, Java&C#, Python&R&Matlab are right next to each other, etc.
- - There's a pretty clean divide between FP and OOP languages 
- - Go is closer to C than it is to C++
- - Rust's nearest neighbors are: haskell, F#, C++, and Go. This feels right.
- - Julia being a LISP is close to haskell.
- - The worst programming languages I've ever seen are grouped well together.The worst is on the periphery of that group - so, that makes sense...
- 
-Weird things
- - Fortran and VB are really close to one another. It feels wrong... But that's what these features say anyways...
-
-### Caveats
+### Known Caveats
  - Shouldn't really use PCA for binary variables, or count data. 
  - Features are not perfect, I drummed most of them up in a half hour, but had some help from Rust discord with a few!
