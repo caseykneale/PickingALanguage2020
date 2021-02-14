@@ -17,7 +17,7 @@ This is a pretty sensible grouping of languages. Some of it is a little weird, b
 
 ### Interesting Observations
  - A lot of the enterprise languages are at the periphery of the scores plot. This is weird because it implies they are kind of "extreme". One would think that languages supporting more paradigms, or mishmashing features, would be more adopted to solve broader problems. 
- - Theres a large pretty large gap between Haskell and Rust. 
+ - Theres a pretty large gap between Haskell and Rust. 
  
 ### Some observations lending to consistancy. 
  - C&C++, Java&C#, R&Matlab are right next to each other, etc.
